@@ -13,17 +13,19 @@ export default function About() {
   return (
     <div>
       <Navbar />
-      <div className="aboutHero">
-        <div className="h-[550px] bg-black bg-opacity-50 flex flex-col items-center justify-center">
-          <h1 className="text-4xl text-white sm:text-5xl lg:text-7xl font-bold text-center">
-            Welcome to the DICE community
+      <section
+        className="relative h-screen bg-cover bg-center bg-no-repeat animation-slide"
+        style={{ backgroundImage: `url('/your-background-image.jpg')` }}
+      >
+        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-white text-center px-4">
+          <h1 className="font-bold text-4xl sm:text-6xl md:text-7xl lg:text-8xl tracking-wide stretch">
+            DICE
           </h1>
-          <p className="text-lg text-white sm:text-xl lg:text-2xl translate-y-8">
-            {" "}
+          <p className="mt-4 sm:mt-6 text-base sm:text-xl md:text-2xl font-medium max-w-3xl">
             Where Ideas Meet Innovation
           </p>
         </div>
-      </div>
+      </section>
       <div className="p-8 py-20 flex flex-col lg:flex-row items-center justify-center gap-x-24">
         <div className="lg:w-1/2">
           <h1 className="text-4xl md:text-5xl font-semibold">Who we are...?</h1>

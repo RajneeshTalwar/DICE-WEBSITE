@@ -138,12 +138,65 @@
     {
         "id": 6,
         "title": "Smart Barricade",
-        "description": "",
-        "specs": [],
-        "sdgs": [],
-        "sdg_explanation": [],
+        "description": "An intelligent barricade system designed for traffic management and safety, equipped with IoT features for real-time monitoring and control.",
+        "specs": [
+            {
+                "spec": "Material",
+                "desc": "High-strength, weather-resistant material for durability."
+            },
+            {
+                "spec": "IoT Features",
+                "desc": "Real-time monitoring, remote control, and automated alerts."
+            },
+            {
+                "spec": "Power Source",
+                "desc": "Battery backup."
+            }
+        ],
+        "sdgs": [
+            9,
+            11
+        ],
+        "sdg_explanation": [
+            "9 (Industry, Innovation and Infrastructure): Enhances traffic management with smart technology.",
+            "11 (Sustainable Cities and Communities): Improves urban safety and infrastructure."
+        ],
         "images": [
             "/assets/projects/smart-barricade.mp4"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "E-Cycle",
+        "description": "A lightweight, electric-powered bicycle designed for eco-friendly and efficient urban commuting.",
+        "specs": [
+            {
+                "spec": "Battery",
+                "desc": "36V, 10Ah (Li-Ion), 50 Km/Charge (Range)"
+            },
+            {
+                "spec": "Motor",
+                "desc": "250W Hub Motor, 25 Km/H (Speed)"
+            },
+            {
+                "spec": "Frame",
+                "desc": "Aluminum alloy, lightweight and durable."
+            }
+        ],
+        "sdgs": [
+            7,
+            11,
+            13
+        ],
+        "sdg_explanation": [
+            "7 (Affordable and Clean Energy): Promotes clean energy usage for transportation.",
+            "11 (Sustainable Cities and Communities): Encourages sustainable urban mobility.",
+            "13 (Climate Action): Reduces carbon emissions through eco-friendly commuting."
+        ],
+        "images": [
+            "/assets/projects/e-cycle-0.jpg",
+            "/assets/projects/e-cycle-1.jpg",
+            "/assets/projects/e-cycle.mp4"
         ]
     }
 ]
