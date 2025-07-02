@@ -1,0 +1,44 @@
+{
+    "founder": {
+        "name": "Dr. (Prof) Rajneesh Talwaar",
+        "designations": [
+            "Dean DICE",
+            "Head CSE Examination"
+        ],
+        "image": "/assets/staff1.png"
+    },
+    "staff_members": [
+        {
+            "name": "Dr. Danveer Mandal",
+            "roles": [
+                "Course Coordinator",
+                "ESIoT (Evening Shift)"
+            ],
+            "image": "/assets/dr_danveer_mandal_2.jpg"
+        },
+        {
+            "name": "Dr. Pardeep Jindal",
+            "roles": [
+                "Course Coordinator",
+                "DECA (Evening Shift)"
+            ],
+            "image": "/assets/dr_pardeep_jindal.jpg"
+        },
+        {
+            "name": "Dr Satyajit Anand",
+            "roles": [
+                "Associate Professor",
+                "(DECA Morning Shift)"
+            ],
+            "image": "/assets/staff3.png"
+        },
+        {
+            "name": "Dr. Manvinder Sharma",
+            "roles": [
+                "Associate Professor",
+                "(ESIoT Morning Shift)"
+            ],
+            "image": "/assets/staff4.png"
+        }
+    ]
+}

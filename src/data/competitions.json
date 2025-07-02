@@ -1,0 +1,137 @@
+[
+    {
+        "sno": 15,
+        "name": "Sustainable Eco Harvesting - Agro Expo for Green Future",
+        "date": "2025-04-02",
+        "organizedBy": "CURIN",
+        "venue": "Chitkara University",
+        "participation": "2nd, 3rd Position",
+        "imageSrc": "/assets/dice_ebike.jpg"
+    },
+    {
+        "sno": 14,
+        "name": "DICE Team at IIT Mandi",
+        "date": "2025-03-31",
+        "organizedBy": "IIT Mandi",
+        "venue": "IIT Mandi",
+        "participation": "From Drones to Debugging: Chitkara Students Make a Mark at IIT Mandi Students from Chitkara University’s Department of Interdisciplinary Courses in Engineering (DICE) guided by Dr.Rajneesh Talwar, showcased their talent at XPECTO 2025—the annual tech fest at IIT Mandi, held from March 28–31. Competing alongside top institutions like IIT Mandi, DTU, PEC, IIT Delhi, and more, our students participated in high-impact events such as Domination, Wall Maze Solver, Sky Quest R-1 & R-2, Samsaya, Dementia, and Frost Hack.",
+        "imageSrc": "/assets/national_events/2025-03-31-iit-mandi.jpg"
+    },
+    {
+        "sno": 13,
+        "name": "TechQuake 2023",
+        "date": "2023-10-18",
+        "organizedBy": "Indian Society for Technical Education",
+        "venue": "S.B.S. State University",
+        "participation": "1st, 2nd, 3rd Position",
+        "imageSrc": "./assets/comp12.png"
+    },
+    {
+        "sno": 12,
+        "name": "Engineer's Day Celebrations",
+        "date": "2023-09-15",
+        "organizedBy": "Chitkara University, Punjab",
+        "venue": "Rajpura",
+        "participation": "2nd Position",
+        "imageSrc": ""
+    },
+    {
+        "sno": 11,
+        "name": "Hackathon Solution for Waste Reduction",
+        "date": "2023-06-30",
+        "organizedBy": "Chitkara University, Punjab",
+        "venue": "Rajpura",
+        "participation": "3rd Position",
+        "imageSrc": "/assets/comp10.png"
+    },
+    {
+        "sno": 10,
+        "name": "Hack IT Sapiens",
+        "date": "2023-04-14",
+        "organizedBy": "Poornima College of Engineering",
+        "venue": "Jaipur",
+        "participation": "1st and 2nd Position",
+        "imageSrc": "/assets/comp9.png"
+    },
+    {
+        "sno": 9,
+        "name": "Energy Conservation Week",
+        "date": "2023-03-29",
+        "organizedBy": "Indian Institute of Technology",
+        "venue": "Ropar",
+        "participation": "3rd Position",
+        "imageSrc": ""
+    },
+    {
+        "sno": 8,
+        "name": "Chitkara Valorant Championship",
+        "date": "2023-02-19",
+        "organizedBy": "Chitkara University, Punjab",
+        "venue": "Rajpura",
+        "participation": "2nd Position",
+        "imageSrc": "/assets/comp7.png"
+    },
+    {
+        "sno": 7,
+        "name": "5th Technovation Hackathon",
+        "date": "2023-01-30",
+        "organizedBy": "Sharda University",
+        "venue": "Greater Noida",
+        "participation": "3rd Position",
+        "imageSrc": "/assets/comp6.png"
+    },
+    {
+        "sno": 6,
+        "name": "India International Science Festival",
+        "date": "2023-01-21",
+        "organizedBy": "Ministry of Science & Technology, Department of Atomic Energy, Government of M.P. India",
+        "venue": "Bhopal",
+        "participation": "3rd Position",
+        "imageSrc": "/assets/comp13.png"
+    },
+    {
+        "sno": 5,
+        "name": "Smart App Development Hackathon",
+        "date": "2023-01-20",
+        "organizedBy": "Department of Computer Engineering and Science",
+        "venue": "Punjab",
+        "participation": "3rd Position",
+        "imageSrc": "/assets/comp5.png"
+    },
+    {
+        "sno": 4,
+        "name": "Tech. Hacks 3.0",
+        "date": "2023-01-07",
+        "organizedBy": "Department of Electronics and Communication Engineering",
+        "venue": "Punjab",
+        "participation": "3rd Position",
+        "imageSrc": "/assets/comp4.png"
+    },
+    {
+        "sno": 3,
+        "name": "Swach Technology Challenge",
+        "date": "2022-12-12",
+        "organizedBy": "Ministry of Housing & Urban Affairs",
+        "venue": "Chandigarh",
+        "participation": "3rd Position",
+        "imageSrc": "/assets/comp3.png"
+    },
+    {
+        "sno": 2,
+        "name": "Tech. Future Hackathon",
+        "date": "2022-11-28",
+        "organizedBy": "Foundation for Innovation and Technology Transfer FITI",
+        "venue": "FITT-IIT Delhi",
+        "participation": "3rd Position",
+        "imageSrc": "/assets/comp2.png"
+    },
+    {
+        "sno": 1,
+        "name": "CentuRlTon Hackathon",
+        "date": "2022-11-25",
+        "organizedBy": "Ramaiyah Institute of Technology",
+        "venue": "Bengaluru",
+        "participation": "3rd Position",
+        "imageSrc": "/assets/comp1.png"
+    }
+]

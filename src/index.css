@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.animation-slide {
+  animation: slide 20s infinite;
+}
+
+@keyframes slide {
+
+  0%,
+  11.1% {
+    background-image: url("/public/assets/heroBg.jpeg");
+  }
+
+  11.2%,
+  22.2% {
+    background-image: url("/public/assets/herobg2.jpg");
+  }
+
+  22.3%,
+  33.3% {
+    background-image: url("/public/assets/herobg3.jpg");
+  }
+
+  33.4%,
+  44.4% {
+    background-image: url("/public/assets/herobg4.jpg");
+  }
+
+  44.5%,
+  55.5% {
+    background-image: url("/public/assets/herobg5.jpg");
+  }
+
+  55.6%,
+  66.6% {
+    background-image: url("/public/assets/herobg6.jpg");
+  }
+
+  66.7%,
+  77.7% {
+    background-image: url("/public/assets/herobg7.jpg");
+  }
+
+  77.8%,
+  88.8% {
+    background-image: url("/public/assets/iit_ropar_ai_smart_farming.jpg");
+  }
+
+  88.9%,
+  100% {
+    background-image: url("/public/assets/dice_ebike.jpg");
+  }
+}
+
+
+
+.stretch {
+  transform: scale(4, 1.5);
+  font-family: "Arial";
+}
+
+.animation-pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.8);
+    box-shadow: 0 0 0 0 rgba(229, 62, 62, 1);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 20px rgba(229, 62, 62, 0);
+  }
+
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+/* CSS for Blog Page */
+.Blogs {
+  background: url("https://cdn.vectorstock.com/i/preview-1x/82/52/white-soft-light-background-vector-26318252.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.blog-post {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.blog-post:hover {
+  transform: translateY(-10px);
+}
+
+.blog-post-inner {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.blog-post:hover .blog-post-inner {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* CSS for Contact Page */
+
+.Contact {
+  background: url("https://img.freepik.com/free-vector/blurred-bokeh-banner-perfect-backdrop-your-creative-project-vector_1017-48613.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.aboutHero {
+  background-image: url("https://lh5.googleusercontent.com/p/AF1QipNE9uw_rVqgH7aQEdIw1PjVERXRPItNwYNmoiOg=s709-k-no");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}

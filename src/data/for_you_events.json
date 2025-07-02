@@ -1,0 +1,26 @@
+[
+    [
+        {
+            "type": "workshop",
+            "name": "Workshops",
+            "text": "By organizing regular workshops, we ensure that your journey to becoming a skilled programmer is smooth and straightforward."
+        },
+        {
+            "type": "codathon",
+            "name": "Codathons",
+            "text": "We host codathons for all to test coding limits, improve skills, and advance careers in technology. Join us to enhance your coding journey!"
+        }
+    ],
+    [
+        {
+            "type": "hackathon",
+            "name": "Hackathons",
+            "text": "A gathering for programmers and enthusiasts to create and showcase software, receiving feedback from experienced individuals."
+        },
+        {
+            "type": "seminar",
+            "name": "Seminars",
+            "text": "We organize seminars with industry experts to aid students in workplace readiness and skill enhancement for professional growth."
+        }
+    ]
+]

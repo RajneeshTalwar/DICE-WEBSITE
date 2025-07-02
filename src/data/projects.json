@@ -1,0 +1,203 @@
+[
+    {
+        "id": 7,
+        "title": "E-Bike",
+        "description": "A retrofitted old fuel-based bike, converted into an electric bike for sustainable and cost-effective transportation.",
+        "specss": "Range: 100 Km (per charge), Top Speed: 90+ Km/h, BLDC Hub Motor (60-72V, 2000W,)",
+        "specs": [
+            {
+                "spec": "Battery",
+                "desc": "60-72V, 42Ah (Li-Ion), 120 Km/Charge (Range)"
+            },
+            {
+                "spec": "BLDC Hub Motor",
+                "desc": "60-72V, 2KW, 17', 80-90 Km/H (Speed)"
+            },
+            {
+                "spec": "BLDC Controller",
+                "desc": "60-72V, 2KW"
+            }
+        ],
+        "sdgs": [
+            7,
+            9,
+            13
+        ],
+        "sdg_explanation": [
+            "7 (Affordable and Clean Energy): Promotes clean, electric-powered mobility.",
+            "9 (Industry, Innovation and Infrastructure): Represents innovation in sustainable vehicle retrofitting.",
+            "13 (Climate Action): Reduces carbon emissions through EV conversion."
+        ],
+        "images": [
+            "/assets/projects/e-bike-0.jpg",
+            "/assets/projects/e-bike-1.jpg",
+            "/assets/projects/e-bike-riding-0.mp4"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Solar Wheel Chair / Tricycle",
+        "description": "A solar-powered wheelchair/tricycle hybrid that provides sustainable mobility for differently-abled individuals in off-grid areas.",
+        "specs": [],
+        "sdgs": [
+            3,
+            7,
+            10
+        ],
+        "sdg_explanation": [
+            "3 (Good Health and Well-being): Enhances mobility and well-being for users.",
+            "7 (Affordable and Clean Energy): Uses solar power to provide sustainable transport.",
+            "10 (Reduced Inequalities): Improves accessibility for people with disabilities."
+        ],
+        "images": [
+            "/assets/projects/wheelchair-tricycle-0.jpg",
+            "/assets/projects/wheelchair-tricycle-1.jpg",
+            "/assets/projects/solar-wheel-chair-riding-0.mp4"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "IoT enabled Curtains",
+        "description": "Smart curtains that can be controlled via mobile or voice, designed for convenience, energy efficiency, and accessibility.",
+        "specs": [],
+        "sdgs": [
+            7,
+            9,
+            11
+        ],
+        "sdg_explanation": [
+            "7 (Affordable and Clean Energy): Helps reduce power usage via natural light optimization.",
+            "9 (Industry, Innovation and Infrastructure): Smart home tech application.",
+            "11 (Sustainable Cities and Communities): Increases home automation and accessibility."
+        ],
+        "images": [
+            "/assets/projects/iot-curtains.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Electric Kick Scooter",
+        "description": "A compact, electric-powered scooter ideal for last-mile connectivity, reducing pollution and traffic in urban areas.",
+        "specs": [],
+        "sdgs": [
+            9,
+            11,
+            13
+        ],
+        "sdg_explanation": [
+            "9 (Industry, Innovation and Infrastructure): Innovative transport for smart cities.",
+            "11 (Sustainable Cities and Communities): Promotes eco-friendly urban transport.",
+            "13 (Climate Action): Reduces carbon footprint."
+        ],
+        "images": [
+            "/assets/projects/electric-scooter-0.jpg",
+            "/assets/projects/electric-scooter-1.jpg",
+            "/assets/projects/Electric-Kick-Scooter.mp4"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Smart LED Matrix Notice Board",
+        "description": "An IoT-enabled LED display board for real-time announcements in schools, public places, and offices.",
+        "specs": [],
+        "sdgs": [
+            4,
+            9,
+            11
+        ],
+        "sdg_explanation": [
+            "4 (Quality Education): Improves communication in educational spaces.",
+            "9 (Industry, Innovation and Infrastructure): Applies smart display tech.",
+            "11 (Sustainable Cities and Communities): Enhances information access in public areas."
+        ],
+        "images": [
+            "/assets/projects/electric-matrix-notice-board.jpg",
+            "/assets/projects/smart-led-sign.mp4"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Smart IoT enabled Wheel Chair",
+        "description": "An intelligent wheelchair equipped with IoT features like health monitoring, GPS, and fall detection to enhance safety and autonomy.",
+        "specs": [],
+        "sdgs": [
+            3,
+            9,
+            10
+        ],
+        "sdg_explanation": [
+            "3 (Good Health and Well-being): Supports users’ health and safety.",
+            "9 (Industry, Innovation and Infrastructure): Incorporates advanced assistive technology.",
+            "10 (Reduced Inequalities): Increases independence for disabled individuals."
+        ],
+        "images": [
+            "/assets/projects/electric-wheel-chair.jpg",
+            "/assets/projects/electric-wheel-chair-riding-0.mp4",
+            "/assets/projects/electric-wheel-chair-riding-1.mp4"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Smart Barricade",
+        "description": "An intelligent barricade system designed for traffic management and safety, equipped with IoT features for real-time monitoring and control.",
+        "specs": [
+            {
+                "spec": "Material",
+                "desc": "High-strength, weather-resistant material for durability."
+            },
+            {
+                "spec": "IoT Features",
+                "desc": "Real-time monitoring, remote control, and automated alerts."
+            },
+            {
+                "spec": "Power Source",
+                "desc": "Battery backup."
+            }
+        ],
+        "sdgs": [
+            9,
+            11
+        ],
+        "sdg_explanation": [
+            "9 (Industry, Innovation and Infrastructure): Incorporates advanced assistive technology.",
+            "11 (Sustainable Cities and Communities): Enhances information access in public areas."
+        ],
+        "images": [
+            "/assets/projects/smart-barricade.mp4",
+            "/assets/projects/Smart-Barricade-0.jpeg"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "E-Cycle",
+        "description": "A lightweight, electric-powered bicycle designed for eco-friendly and efficient urban commuting.",
+        "specs": [
+            {
+                "spec": "Battery",
+                "desc": "36V, 10Ah (Li-Ion), 50 Km/Charge (Range)"
+            },
+            {
+                "spec": "Motor",
+                "desc": "250W Hub Motor, 25 Km/H (Speed)"
+            },
+            {
+                "spec": "Frame",
+                "desc": "Aluminum alloy, lightweight and durable."
+            }
+        ],
+        "sdgs": [
+            7,
+            11
+        ],
+        "sdg_explanation": [
+            "7 (Affordable and Clean Energy): Promotes clean energy usage for transportation.",
+            "11 (Sustainable Cities and Communities): Encourages sustainable urban mobility.",
+            "13 (Climate Action): Reduces carbon emissions through eco-friendly commuting."
+        ],
+        "images": [
+            "/assets/projects/e-cycle-0.jpg",
+            "/assets/projects/e-cycle.mp4",
+            "/assets/projects/e-cycle-1.jpg"
+        ]
+    }
+]
