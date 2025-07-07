@@ -5,7 +5,7 @@
             "Dean DICE",
             "Head CSE Examination"
         ],
-        "image": "/assets/staff1.png"
+        "image": "./assets/staff1.png"
     },
     "staff_members": [
         {
@@ -14,7 +14,7 @@
                 "Course Coordinator",
                 "ESIoT (Evening Shift)"
             ],
-            "image": "/assets/dr_danveer_mandal_2.jpg"
+            "image": "./assets/dr_danveer_mandal_2.jpg"
         },
         {
             "name": "Dr. Pardeep Jindal",
@@ -22,7 +22,7 @@
                 "Course Coordinator",
                 "DECA (Evening Shift)"
             ],
-            "image": "/assets/dr_pardeep_jindal.jpg"
+            "image": "./assets/dr_pardeep_jindal.jpg"
         },
         {
             "name": "Dr Satyajit Anand",
@@ -30,7 +30,7 @@
                 "Associate Professor",
                 "(DECA Morning Shift)"
             ],
-            "image": "/assets/staff3.png"
+            "image": "./assets/staff3.png"
         },
         {
             "name": "Dr. Manvinder Sharma",
@@ -38,7 +38,7 @@
                 "Associate Professor",
                 "(ESIoT Morning Shift)"
             ],
-            "image": "/assets/staff4.png"
+            "image": "./assets/staff4.png"
         }
     ]
 }

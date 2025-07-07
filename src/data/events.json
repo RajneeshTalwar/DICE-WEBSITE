@@ -4,76 +4,76 @@
         "title": "Vigyaan Manthan 2025",
         "date": "2025-04-24",
         "content": "Department of Interdisciplinary courses in engineering (DICE) showcased 30 Projects in \"Vigyaan Manthan 2025\" held at Chitkara University, Punjab in alpha zone on 24-04-2025. This inspiring event was supported by the Punjab State Council for Science and Technology, highlighting a strong commitment to fostering innovation and scientific spirit among young minds. Students from DICE showcased an impressive array of innovative projects focused on Electric Vehicles, Internet of Things (IoT), sustainable energy solutions, and smart automation demonstrating the future-ready mindset and technical prowess of Chitkara’s budding engineers. ",
-        "imageUrl": "/assets/events/2025-04-24-Vigyaan-Manthan-2025.jpg"
+        "imageUrl": "./assets/events/2025-04-24-Vigyaan-Manthan-2025.jpg"
     },
     {
         "id": 8,
         "title": "Indo-African Academia Industry Meet",
         "date": "2025-04-07",
         "content": "Department of Interdisciplinary Courses in Engineering (DICE Chitkara University) presented their innovative project, “Smart Electric Wheelchair,” at the Indo-African Academia Industry Meet on hashtag#Healthcare hashtag#Innovations, held on April 7, 2025. The event was jointly organized by the Department of Healthcare Management, Chitkara Business School, and the DST-funded Chitkara University Technology Enabling Centre (CU-TEC). This project was mentored by Dr. Rajneesh Talwar, Professor and Dean, DICE. Foreign delegates from Africa attended the event and commended the innovation, calling it “a very good and impactful initiative that aligns well with current global healthcare needs.” The project bridges the gap between engineering and healthcare, embodying a true interdisciplinary approach to solving real-world problems.",
-        "imageUrl": "/assets/events/2025-04-07-Indo-African-Meet.jpg"
+        "imageUrl": "./assets/events/2025-04-07-Indo-African-Meet.jpg"
     },
     {
         "id": 7,
         "title": "Arduino/NodeMCU using Sensors",
         "date": "2025-04-14",
         "content": "The Department of Interdisciplinary Courses in Engineering (DICE) at Chitkara University organized a hands-on workshop titled - “Arduino/NodeMCU Using Sensors” on April 4, 2025, at Turing Block (TG022). The session was led by Prof. (Dr.) Rajneesh Talwar, Dean, DICE, and Dr. Pardeep Kumar Jindal, DICE department. Dr. Talwar introduced participants to the capabilities of Arduino and NodeMCU platforms in IoT applications, emphasizing their use with various sensors.",
-        "imageUrl": "/assets/events/2025-02-02-Arduino-NodeMCU-Using-Sensors.jpg"
+        "imageUrl": "./assets/events/2025-02-02-Arduino-NodeMCU-Using-Sensors.jpg"
     },
     {
         "id": 10,
         "title": "Innovative Ideas Implementation Using Drone",
         "date": "2025-02-13",
         "content": "The Department of Interdisciplinary Courses in Engineering (DICE) at Chitkara University organized a workshop titled \"Innovative Ideas Implementation Using Drone\" on February 13, 2025. The session, focused on leveraging drone technology for innovation and real-world applications.",
-        "imageUrl": "/assets/events/2025-02-13-Drone-Workshop.jpg"
+        "imageUrl": "./assets/events/2025-02-13-Drone-Workshop.jpg"
     },
     {
         "id": 6,
         "title": "Innovation in Computer Vision Techniques",
         "date": "2025-02-27",
         "content": "Chitkara University's DICE department hosted a hands-on workshop on \"Innovation in Computer Vision Techniques\" to bridge academia and industry. Dr. Rajneesh Talwar emphasized computer vision’s significance in various industries. Industry expert Mr. Sarabjit Singh introduced key concepts like image processing and object detection. His team led practical sessions.",
-        "imageUrl": "/assets/events/2025-04-14-Innovations-in-Computer-Vision-Techniques.jpg"
+        "imageUrl": "./assets/events/2025-04-14-Innovations-in-Computer-Vision-Techniques.jpg"
     },
     {
         "id": 1,
         "title": "National Science Day Presentation Competition",
         "date": "2024-02-28",
         "content": "DICE organized a presentation competition on indigenous technologies, promoting innovation and scientific curiosity among students. 66 presentations showcased creative ideas, enhancing research skills and communication abilities.",
-        "imageUrl": "/assets/blog1.jpeg"
+        "imageUrl": "./assets/blog1.jpeg"
     },
     {
         "id": 2,
         "title": "Arduino and IoT Workshop",
         "date": "2024-02-03",
         "content": "DICE organized a workshop focusing on Arduino and IoT, led by Dr. Rajneesh Talwar and Dr. Manvinder Sharma. Students gained hands-on experience in coding, implementing LED circuits, traffic lights, and more, fostering innovation in engineering.",
-        "imageUrl": "/assets/blog2.jpeg"
+        "imageUrl": "./assets/blog2.jpeg"
     },
     {
         "id": 3,
         "title": "DICE-SKOAR Gamers Arcade",
         "date": "2023-12-08",
         "content": "Organized the 'DICE-SKOAR Gamers Arcade'. Over 500 students participated, experiencing AR/VR gaming, PS5, and laptop gaming. The event showcased how gaming technologies enhance learning and offered online gaming competitions with cash prizes.",
-        "imageUrl": "/assets/blog3.jpeg"
+        "imageUrl": "./assets/blog3.jpeg"
     },
     {
         "id": 5,
         "title": "Expert Talk on Data Structures",
         "date": "2023-08-04",
         "content": "DICE organized an Expert Talk on Data Structures at Plato Hall. Dr. Rajneesh Talwar introduced the session, followed by Dr. Sandeep Sachdeva's informative talk covering types, applications, time complexity, optimization, and live coding demonstrations.",
-        "imageUrl": "/assets/blog5.jpeg"
+        "imageUrl": "./assets/blog5.jpeg"
     },
     {
         "id": 4,
         "title": "International Conference",
         "date": "2023-01-01",
         "content": "Dr. Rajneesh Talwar's project paper on 'E-Bike' was selected at the International Conference, organized by DST-Centre, Panjab University, RFRF, FPTU-Vietnam, NTU-UK, and CICU. The conference facilitated discussions on practical knowledge opportunities, and funding initiatives, aiming to foster innovation and collaboration between industry, and government bodies.",
-        "imageUrl": "/assets/blog4.jpeg"
+        "imageUrl": "./assets/blog4.jpeg"
     },
     {
         "id": 11,
         "title": "Faculty Development Program",
         "date": "2025-06-23 to 2025-06-27",
         "content": " DICE organized a five-day Faculty Development Program, “Emerging Interdisciplinary Technologies in Engineering 2.0,” from June 23–27, 2025. The program offered hands-on training in IoT, Python, Machine Learning, AI, Generative AI, Explainable AI, and Blockchain. Expert-led sessions combined theory with practical applications, promoting innovation and interdisciplinary learning aligned with key Sustainable Development Goals.",
-        "imageUrl": "/assets/events/fdp.jpeg"
+        "imageUrl": "./assets/events/fdp.jpeg"
     }
 ]

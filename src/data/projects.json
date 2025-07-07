@@ -29,9 +29,9 @@
             "13 (Climate Action): Reduces carbon emissions through EV conversion."
         ],
         "images": [
-            "/assets/projects/e-bike-0.jpg",
-            "/assets/projects/e-bike-1.jpg",
-            "/assets/projects/e-bike-riding-0.mp4"
+            "./assets/projects/e-bike-0.jpg",
+            "./assets/projects/e-bike-1.jpg",
+            "./assets/projects/e-bike-riding-0.mp4"
         ]
     },
     {
@@ -50,9 +50,9 @@
             "10 (Reduced Inequalities): Improves accessibility for people with disabilities."
         ],
         "images": [
-            "/assets/projects/wheelchair-tricycle-0.jpg",
-            "/assets/projects/wheelchair-tricycle-1.jpg",
-            "/assets/projects/solar-wheel-chair-riding-0.mp4"
+            "./assets/projects/wheelchair-tricycle-0.jpg",
+            "./assets/projects/wheelchair-tricycle-1.jpg",
+            "./assets/projects/solar-wheel-chair-riding-0.mp4"
         ]
     },
     {
@@ -71,8 +71,8 @@
             "11 (Sustainable Cities and Communities): Increases home automation and accessibility."
         ],
         "images": [
-            "/assets/projects/iot-curtains.jpg",
-            "/assets/projects/Curtains.mp4"
+            "./assets/projects/iot-curtains.jpg",
+            "./assets/projects/Curtains.mp4"
         ]
     },
     {
@@ -91,9 +91,9 @@
             "13 (Climate Action): Reduces carbon footprint."
         ],
         "images": [
-            "/assets/projects/electric-scooter-0.jpg",
-            "/assets/projects/electric-scooter-1.jpg",
-            "/assets/projects/Electric-Kick-Scooter.mp4"
+            "./assets/projects/electric-scooter-0.jpg",
+            "./assets/projects/electric-scooter-1.jpg",
+            "./assets/projects/Electric-Kick-Scooter.mp4"
         ]
     },
     {
@@ -112,8 +112,8 @@
             "11 (Sustainable Cities and Communities): Enhances information access in public areas."
         ],
         "images": [
-            "/assets/projects/electric-matrix-notice-board.jpg",
-            "/assets/projects/smart-led-sign.mp4"
+            "./assets/projects/electric-matrix-notice-board.jpg",
+            "./assets/projects/smart-led-sign.mp4"
         ]
     },
     {
@@ -132,9 +132,9 @@
             "10 (Reduced Inequalities): Increases independence for disabled individuals."
         ],
         "images": [
-            "/assets/projects/electric-wheel-chair.jpg",
-            "/assets/projects/electric-wheel-chair-riding-0.mp4",
-            "/assets/projects/electric-wheel-chair-riding-1.mp4"
+            "./assets/projects/electric-wheel-chair.jpg",
+            "./assets/projects/electric-wheel-chair-riding-0.mp4",
+            "./assets/projects/electric-wheel-chair-riding-1.mp4"
         ]
     },
     {
@@ -164,8 +164,8 @@
             "11 (Sustainable Cities and Communities): Enhances information access in public areas."
         ],
         "images": [
-            "/assets/projects/smart-barricade.mp4",
-            "/assets/projects/Smart-Barricade-0.jpeg"
+            "./assets/projects/smart-barricade.mp4",
+            "./assets/projects/Smart-Barricade-0.jpeg"
         ]
     },
     {
@@ -196,9 +196,9 @@
             "13 (Climate Action): Reduces carbon emissions through eco-friendly commuting."
         ],
         "images": [
-            "/assets/projects/e-cycle-0.jpg",
-            "/assets/projects/e-cycle-1.jpg",
-            "/assets/projects/E-cycle.mp4"
+            "./assets/projects/e-cycle-0.jpg",
+            "./assets/projects/e-cycle-1.jpg",
+            "./assets/projects/E-cycle.mp4"
         ]
     }
 ]
