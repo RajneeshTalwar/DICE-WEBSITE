@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 
 export default function ProjectsCards({ projects }) {
+    // Define indexes (or IDs) for the two special events
+    const largeDisplayIndexes = [3, 5]; // or use unique project IDs if available
+
     return (
         <div className="p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {projects.map((project, index) => (
@@ -12,6 +15,8 @@ export default function ProjectsCards({ projects }) {
                         <ImageCarousel
                             images={project.images}
                             title={project.title || `Project ${index}`}
+                            largeDisplay={largeDisplayIndexes.includes(project.id)}
+
                         />
                     )}
                     <h2 className="text-xl font-bold mb-2">
@@ -47,7 +52,7 @@ export default function ProjectsCards({ projects }) {
     );
 }
 
-function ImageCarousel({ images, title }) {
+function ImageCarousel({ images, title, largeDisplay }) {
     const [current, setCurrent] = useState(0);
     const [showModal, setShowModal] = useState(false);
 
@@ -61,26 +66,26 @@ function ImageCarousel({ images, title }) {
         return () => clearInterval(interval);
     }, [images.length]);
 
+    const mediaHeightClass = largeDisplay ? "h-50" : "h-48"; // 20rem or 12rem
+
     return (
         <div className="relative mb-4">
             <div onClick={() => setShowModal(true)} className="cursor-pointer">
-                {isVideo(images[current])
-                    ? (
-                        <video
-                            src={images[current]}
-                            className="w-full h-48 object-cover rounded-xl"
-                            muted
-                            autoPlay
-                            loop
-                        />
-                    )
-                    : (
-                        <img
-                            src={images[current]}
-                            alt={`${title} - image ${current + 1}`}
-                            className="w-full h-48 object-cover rounded-xl"
-                        />
-                    )}
+                {isVideo(images[current]) ? (
+                    <video
+                        src={images[current]}
+                        className={`w-full ${mediaHeightClass} object-cover rounded-xl`}
+                        muted
+                        autoPlay
+                        loop
+                    />
+                ) : (
+                    <img
+                        src={images[current]}
+                        alt={`${title} - image ${current + 1}`}
+                        className={`w-full ${mediaHeightClass} object-cover rounded-xl`}
+                    />
+                )}
             </div>
             {images.length > 1 && (
                 <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex gap-2">
@@ -88,11 +93,8 @@ function ImageCarousel({ images, title }) {
                         <button
                             key={index}
                             onClick={() => goToImage(index)}
-                            className={`w-2.5 h-2.5 rounded-full ${
-                                index === current
-                                    ? "bg-blue-600"
-                                    : "bg-gray-300"
-                            }`}
+                            className={`w-2.5 h-2.5 rounded-full ${index === current ? "bg-blue-600" : "bg-gray-300"
+                                }`}
                         />
                     ))}
                 </div>
@@ -102,22 +104,20 @@ function ImageCarousel({ images, title }) {
                     className="fixed inset-0 z-50 bg-black bg-opacity-70 flex items-center justify-center"
                     onClick={() => setShowModal(false)}
                 >
-                    {isVideo(images[current])
-                        ? (
-                            <video
-                                src={images[current]}
-                                className="max-w-full max-h-full rounded-xl"
-                                controls
-                                autoPlay
-                            />
-                        )
-                        : (
-                            <img
-                                src={images[current]}
-                                alt={`${title} - enlarged`}
-                                className="max-w-full max-h-full rounded-xl"
-                            />
-                        )}
+                    {isVideo(images[current]) ? (
+                        <video
+                            src={images[current]}
+                            className="max-w-full max-h-full rounded-xl"
+                            controls
+                            autoPlay
+                        />
+                    ) : (
+                        <img
+                            src={images[current]}
+                            alt={`${title} - enlarged`}
+                            className="max-w-full max-h-full rounded-xl"
+                        />
+                    )}
                 </div>
             )}
         </div>
@@ -141,9 +141,7 @@ function SpecsAccordion({ specs }) {
                 <ul className="mt-1 text-sm list-disc list-inside text-gray-700">
                     {specs.map((item, i) => (
                         <li key={i}>
-                            <span className="font-semibold">{item.spec}:</span>
-                            {" "}
-                            {item.desc}
+                            <span className="font-semibold">{item.spec}:</span> {item.desc}
                         </li>
                     ))}
                 </ul>

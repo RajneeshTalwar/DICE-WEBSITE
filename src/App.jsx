@@ -3,6 +3,8 @@ import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Research from "./components/pages/Research";
+import FDP from "./components/pages/FDP";
+
 import NationalEvents from "./components/pages/NationalEvents";
 import Event from "./components/pages/Event";
 import Register from "./components/pages/Register";
@@ -17,6 +19,8 @@ export default function App() {
       <Route path="/national" element={<NationalEvents />} />
       <Route path="/event" element={<Event />} />
       <Route path="/research" element={<Research />} />
+      <Route path="/FDP" element={<FDP />} />
+
       <Route path="/competitions" element={<Competitions />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/projects" element={<Projects />} />

@@ -12,6 +12,7 @@ export default function Navbar() {
     { title: "Projects", path: "/projects" },
     { title: "Events", path: "/event" },
     { title: "Research", path: "/research" },
+    { title: "FDP", path: "/FDP" },
     { title: "Competitions", path: "/competitions" },
     { title: "Contact", path: "/contact" },
   ];

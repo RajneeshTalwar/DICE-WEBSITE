@@ -31,7 +31,8 @@
         "images": [
             "./assets/projects/e-bike-0.jpg",
             "./assets/projects/e-bike-1.jpg",
-            "./assets/projects/e-bike-riding-0.mp4"
+            "./assets/projects/e-bike-riding-0.mp4",
+            "./assets/projects/e-bike-2.mp4"
         ]
     },
     {
@@ -76,27 +77,6 @@
         ]
     },
     {
-        "id": 3,
-        "title": "Electric Kick Scooter",
-        "description": "A compact, electric-powered scooter ideal for last-mile connectivity, reducing pollution and traffic in urban areas.",
-        "specs": [],
-        "sdgs": [
-            9,
-            11,
-            13
-        ],
-        "sdg_explanation": [
-            "9 (Industry, Innovation and Infrastructure): Innovative transport for smart cities.",
-            "11 (Sustainable Cities and Communities): Promotes eco-friendly urban transport.",
-            "13 (Climate Action): Reduces carbon footprint."
-        ],
-        "images": [
-            "./assets/projects/electric-scooter-0.jpg",
-            "./assets/projects/electric-scooter-1.jpg",
-            "./assets/projects/Electric-Kick-Scooter.mp4"
-        ]
-    },
-    {
         "id": 2,
         "title": "Smart LED Matrix Notice Board",
         "description": "An IoT-enabled LED display board for real-time announcements in schools, public places, and offices.",
@@ -114,27 +94,6 @@
         "images": [
             "./assets/projects/electric-matrix-notice-board.jpg",
             "./assets/projects/smart-led-sign.mp4"
-        ]
-    },
-    {
-        "id": 5,
-        "title": "Smart IoT enabled Wheel Chair",
-        "description": "An intelligent wheelchair equipped with IoT features like health monitoring, GPS, and fall detection to enhance safety and autonomy.",
-        "specs": [],
-        "sdgs": [
-            3,
-            9,
-            10
-        ],
-        "sdg_explanation": [
-            "3 (Good Health and Well-being): Supports users’ health and safety.",
-            "9 (Industry, Innovation and Infrastructure): Incorporates advanced assistive technology.",
-            "10 (Reduced Inequalities): Increases independence for disabled individuals."
-        ],
-        "images": [
-            "./assets/projects/electric-wheel-chair.jpg",
-            "./assets/projects/electric-wheel-chair-riding-0.mp4",
-            "./assets/projects/electric-wheel-chair-riding-1.mp4"
         ]
     },
     {
@@ -198,7 +157,50 @@
         "images": [
             "./assets/projects/e-cycle-0.jpg",
             "./assets/projects/e-cycle-1.jpg",
-            "./assets/projects/E-cycle.mp4"
+            "./assets/projects/E-cycle.mp4",
+            "./assets/projects/E-cycle-2.mp4"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Electric Kick Scooter",
+        "description": "A compact, electric-powered scooter ideal for last-mile connectivity, reducing pollution and traffic in urban areas.",
+        "specs": [],
+        "sdgs": [
+            9,
+            11,
+            13
+        ],
+        "sdg_explanation": [
+            "9 (Industry, Innovation and Infrastructure): Innovative transport for smart cities.",
+            "11 (Sustainable Cities and Communities): Promotes eco-friendly urban transport.",
+            "13 (Climate Action): Reduces carbon footprint."
+        ],
+        "images": [
+            "./assets/projects/electric-scooter-0.jpg",
+            "./assets/projects/electric-scooter-1.jpg",
+            "./assets/projects/Electric-Kick-Scooter.mp4"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Smart IoT enabled Wheel Chair",
+        "description": "An intelligent wheelchair equipped with IoT features like health monitoring, GPS, and fall detection to enhance safety and autonomy.",
+        "specs": [],
+        "sdgs": [
+            3,
+            9,
+            10
+        ],
+        "sdg_explanation": [
+            "3 (Good Health and Well-being): Supports users’ health and safety.",
+            "9 (Industry, Innovation and Infrastructure): Incorporates advanced assistive technology.",
+            "10 (Reduced Inequalities): Increases independence for disabled individuals."
+        ],
+        "images": [
+            "./assets/projects/electric-wheel-chair.jpg",
+            "./assets/projects/electric-wheel-chair-riding-0.mp4",
+            "./assets/projects/electric-wheel-chair-riding-1.mp4"
         ]
     }
 ]

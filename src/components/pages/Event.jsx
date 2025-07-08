@@ -14,7 +14,7 @@ export default function Event() {
       <Navbar />
       <div className="container mx-auto pt-40">
         <h1 className="text-4xl font-semibold mb-12 sm:text-5xl text-center">
-          Past Events
+          Events
         </h1>
         <div>
           <EventSlider />
@@ -78,11 +78,10 @@ export default function Event() {
                   <div className="mt-8">
                     <Link
                       to={{
-                        pathname: `/register/${
-                          encodeURIComponent(
-                            JSON.stringify(event),
-                          )
-                        }`,
+                        pathname: `/register/${encodeURIComponent(
+                          JSON.stringify(event),
+                        )
+                          }`,
                         state: { event: event },
                       }}
                       className="bg-black text-white py-2 px-8 rounded"

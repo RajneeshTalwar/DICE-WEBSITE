@@ -6,7 +6,9 @@
         "organizedBy": "CURIN",
         "venue": "Chitkara University",
         "participation": "2nd, 3rd Position",
-        "imageSrc": "./assets/dice_ebike.jpg"
+        "images": [
+            "./assets/dice_ebike.jpg"
+        ]
     },
     {
         "sno": 14,
@@ -15,7 +17,9 @@
         "organizedBy": "IIT Mandi",
         "venue": "IIT Mandi",
         "participation": "From Drones to Debugging: Chitkara Students Make a Mark at IIT Mandi Students from Chitkara University’s Department of Interdisciplinary Courses in Engineering (DICE) guided by Dr.Rajneesh Talwar, showcased their talent at XPECTO 2025—the annual tech fest at IIT Mandi, held from March 28–31. Competing alongside top institutions like IIT Mandi, DTU, PEC, IIT Delhi, and more, our students participated in high-impact events such as Domination, Wall Maze Solver, Sky Quest R-1 & R-2, Samsaya, Dementia, and Frost Hack.",
-        "imageSrc": "./assets/national_events/2025-03-31-iit-mandi.jpg"
+        "images": [
+            "./assets/national_events/2025-03-31-iit-mandi.jpg"
+        ]
     },
     {
         "sno": 13,
@@ -24,7 +28,9 @@
         "organizedBy": "Indian Society for Technical Education",
         "venue": "S.B.S. State University",
         "participation": "1st, 2nd, 3rd Position",
-        "imageSrc": "./assets/comp12.png"
+        "images": [
+            "./assets/comp12.png"
+        ]
     },
     {
         "sno": 12,
@@ -33,7 +39,17 @@
         "organizedBy": "Chitkara University, Punjab",
         "venue": "Rajpura",
         "participation": "2nd Position",
-        "imageSrc": ""
+        "images": [
+            "./assets/EngineerDayCelebrations-1.jpeg",
+            "./assets/EngineerDayCelebrations-2.jpeg",
+            "./assets/EngineerDayCelebrations-3.jpeg",
+            "./assets/EngineerDayCelebrations-4.jpeg",
+            "./assets/EngineerDayCelebrations-5.jpeg",
+            "./assets/EngineerDayCelebrations-6.jpeg",
+            "./assets/EngineerDayCelebrations-7.jpeg",
+            "./assets/EngineerDayCelebrations-8.jpeg",
+            "./assets/EngineerDayCelebrations-9.jpeg"
+        ]
     },
     {
         "sno": 11,
@@ -42,7 +58,9 @@
         "organizedBy": "Chitkara University, Punjab",
         "venue": "Rajpura",
         "participation": "3rd Position",
-        "imageSrc": "./assets/comp10.png"
+        "images": [
+            "./assets/comp10.png"
+        ]
     },
     {
         "sno": 10,
@@ -51,7 +69,9 @@
         "organizedBy": "Poornima College of Engineering",
         "venue": "Jaipur",
         "participation": "1st and 2nd Position",
-        "imageSrc": "./assets/comp9.png"
+        "images": [
+            "./assets/comp9.png"
+        ]
     },
     {
         "sno": 9,
@@ -60,7 +80,9 @@
         "organizedBy": "Indian Institute of Technology",
         "venue": "Ropar",
         "participation": "3rd Position",
-        "imageSrc": ""
+        "images": [
+            ""
+        ]
     },
     {
         "sno": 8,
@@ -69,7 +91,9 @@
         "organizedBy": "Chitkara University, Punjab",
         "venue": "Rajpura",
         "participation": "2nd Position",
-        "imageSrc": "./assets/comp7.png"
+        "images": [
+            "./assets/comp7.png"
+        ]
     },
     {
         "sno": 7,
@@ -78,7 +102,9 @@
         "organizedBy": "Sharda University",
         "venue": "Greater Noida",
         "participation": "3rd Position",
-        "imageSrc": "./assets/comp6.png"
+        "images": [
+            "./assets/comp6.png"
+        ]
     },
     {
         "sno": 6,
@@ -87,7 +113,9 @@
         "organizedBy": "Ministry of Science & Technology, Department of Atomic Energy, Government of M.P. India",
         "venue": "Bhopal",
         "participation": "3rd Position",
-        "imageSrc": "./assets/comp13.png"
+        "images": [
+            "./assets/comp13.png"
+        ]
     },
     {
         "sno": 5,
@@ -96,7 +124,9 @@
         "organizedBy": "Department of Computer Engineering and Science",
         "venue": "Punjab",
         "participation": "3rd Position",
-        "imageSrc": "./assets/comp5.png"
+        "images": [
+            "./assets/comp5.png"
+        ]
     },
     {
         "sno": 4,
@@ -105,7 +135,9 @@
         "organizedBy": "Department of Electronics and Communication Engineering",
         "venue": "Punjab",
         "participation": "3rd Position",
-        "imageSrc": "./assets/comp4.png"
+        "images": [
+            "./assets/comp4.png"
+        ]
     },
     {
         "sno": 3,
@@ -114,7 +146,9 @@
         "organizedBy": "Ministry of Housing & Urban Affairs",
         "venue": "Chandigarh",
         "participation": "3rd Position",
-        "imageSrc": "./assets/comp3.png"
+        "images": [
+            "./assets/comp3.png"
+        ]
     },
     {
         "sno": 2,
@@ -123,7 +157,9 @@
         "organizedBy": "Foundation for Innovation and Technology Transfer FITI",
         "venue": "FITT-IIT Delhi",
         "participation": "3rd Position",
-        "imageSrc": "./assets/comp2.png"
+        "images": [
+            "./assets/comp2.png"
+        ]
     },
     {
         "sno": 1,
@@ -132,6 +168,8 @@
         "organizedBy": "Ramaiyah Institute of Technology",
         "venue": "Bengaluru",
         "participation": "3rd Position",
-        "imageSrc": "./assets/comp1.png"
+        "images": [
+            "./assets/comp1.png"
+        ]
     }
 ]
