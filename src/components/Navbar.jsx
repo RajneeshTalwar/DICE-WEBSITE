@@ -14,6 +14,8 @@ export default function Navbar() {
     { title: "Research", path: "/research" },
     { title: "FDP", path: "/FDP" },
     { title: "Competitions", path: "/competitions" },
+    { title: "Hackathons", path: "/Hackathons" },
+    { title: "Funding", path: "/Funding" },
     { title: "Contact", path: "/contact" },
   ];
 

@@ -15,7 +15,6 @@
             "./assets/events/TECHINNOVATE-8.jpeg",
             "./assets/events/TECHINNOVATE-9.jpeg",
             "./assets/events/TECHINNOVATE-10.jpeg"
-            
         ]
     },
     {
@@ -126,15 +125,6 @@
         "content": "Dr. Rajneesh Talwar's project paper on 'E-Bike' was selected at the International Conference, organized by DST-Centre, Panjab University, RFRF, FPTU-Vietnam, NTU-UK, and CICU. The conference facilitated discussions on practical knowledge opportunities, and funding initiatives, aiming to foster innovation and collaboration between industry, and government bodies.",
         "images": [
             "./assets/blog4.jpeg"
-        ]
-    },
-    {
-        "id": 11,
-        "title": "Faculty Development Program",
-        "date": "2025-06-23 to 2025-06-27",
-        "content": " DICE organized a five-day Faculty Development Program, “Emerging Interdisciplinary Technologies in Engineering 2.0,” from June 23–27, 2025. The program offered hands-on training in IoT, Python, Machine Learning, AI, Generative AI, Explainable AI, and Blockchain. Expert-led sessions combined theory with practical applications, promoting innovation and interdisciplinary learning aligned with key Sustainable Development Goals.",
-        "images": [
-            "./assets/events/fdp.jpeg"
         ]
     }
 ]

@@ -39,6 +39,7 @@ const CompetitionCard = ({ competition }) => {
 
   return (
     <div className="border border-blue-300 rounded-lg p-6 duration-200 hover:scale-105 hover:shadow-2xl cursor-pointer">
+      <h2 className="text-xl font-semibold mb-4">{competition.name}</h2>
       {competition.images && competition.images.length > 0 && (
         <img
           src={competition.images[imageIndex]}
@@ -46,7 +47,7 @@ const CompetitionCard = ({ competition }) => {
           className="w-full h-48 object-cover mb-4 rounded transition-all duration-500"
         />
       )}
-      <h2 className="text-xl font-semibold mb-4">{competition.name}</h2>
+
       <p className="text-gray-600 mb-2">
         <strong>Date:</strong> {competition.date}
       </p>

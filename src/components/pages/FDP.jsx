@@ -6,28 +6,13 @@ const FDP = () => {
     const fdpData = [
         {
             id: 1,
-            title: 'Emerging Interdisciplinary Technologies in Engineering 2.0',
-            date: '2025-08-23',
-            endDate: '2025-08-27',
-            description:
-                'The Department of Interdisciplinary Courses in Engineering (DICE), Chitkara University, Punjab, successfully organized a five-day Faculty Development Program (FDP) titled “Emerging Interdisciplinary Technologies in Engineering 2.0” from June 23rd to June 27th, 2025. The program was attended by participants from both within and outside Chitkara University. The FDP aimed to provide in-depth theoretical understanding and hands-on exposure to some of the most rapidly and latest evolving interdisciplinary domains in engineering, such as (IoT), Python Programming, Machine Learning, (AI), Generative AI, Explainable AI (XAI), and Blockchain.The FDP was inaugurated by Prof. (Dr.) Rajneesh Talwar, Dean DICE, who also delivered multiple sessions throughout the program.',
-            images: [
-                { url: './assets/FDP/day0.jpeg', caption: 'Poster' },
-                { url: './assets/fdp11.jpeg', caption: 'Day 1: Introduction to IoT' },
-                { url: './assets/fdp12.jpeg', caption: 'Day 2: Python Programming Workshop' },
-                { url: './assets/fdp13.jpeg', caption: 'Day 3: Machine Learning Applications' },
-                { url: './assets/fdp14.jpeg', caption: 'Day 4: AI and Generative AI' },
-                { url: './assets/fdp15.jpeg', caption: 'Day 5: Blockchain & Wrap-Up' }
-            ]
-        },
-        {
-            id: 2,
             title: 'Emerging Interdisciplinary Technologies in Engineering 1.0',
             date: '2024-06-25',
             endDate: '2024-06-29',
             description:
-                '',
+                'The Department of Interdisciplinary Courses in Engineering (DICE), Chitkara University, Punjab, successfully organized a five-day Faculty Development Programme (FDP) on “Emerging Interdisciplinary Technologies in Engineering” from June 25th to June 29th, 2024. The FDP aimed to upskill faculty in rapidly evolving technological domains through expert talks and hands-on training.The program covered a wide range of topics including the Internet of Things (IoT), Arduino-based development, Python programming, Machine Learning, Augmented and Virtual Reality (AR/VR), Teachable Machines, and Bibliometric Analysis. Practical sessions included coding in Google Colab, developing AR projects using Unity and Vuforia, and research data analysis using Scopus, R Studio, and SciMAT. The FDP was inaugurated by Prof. (Dr.) Rajneesh Talwar, Dean DICE, who also led multiple sessions, encouraging participants to integrate these technologies into their academic and research practices.',
             images: [
+                { url: './assets/FDP/2024-poster.jpeg', caption: 'Poster' },
                 { url: './assets/FDP/Day1/day1-1.jpeg', caption: 'Day1: Arduino and IoT' },
                 { url: './assets/FDP/Day1/day1-2.jpeg', caption: 'Day1: Arduino and IoT' },
                 { url: './assets/FDP/Day1/day1-4.jpeg', caption: 'Day1: Arduino and IoT' },
@@ -58,7 +43,24 @@ const FDP = () => {
                 { url: './assets/FDP/Day5/Day5 (9).jpeg', caption: 'Day5: Bibliometric Analysis' }
 
             ]
+        },
+        {
+            id: 2,
+            title: 'Emerging Interdisciplinary Technologies in Engineering 2.0',
+            date: '2025-08-23',
+            endDate: '2025-08-27',
+            description:
+                'The Department of Interdisciplinary Courses in Engineering (DICE), Chitkara University, Punjab, successfully organized a five-day Faculty Development Program (FDP) titled “Emerging Interdisciplinary Technologies in Engineering 2.0” from June 23rd to June 27th, 2025. The program was attended by participants from both within and outside Chitkara University. The FDP aimed to provide in-depth theoretical understanding and hands-on exposure to some of the most rapidly and latest evolving interdisciplinary domains in engineering, such as (IoT), Python Programming, Machine Learning, (AI), Generative AI, Explainable AI (XAI), and Blockchain.The FDP was inaugurated by Prof. (Dr.) Rajneesh Talwar, Dean DICE, who also delivered multiple sessions throughout the program.',
+            images: [
+                { url: './assets/FDP/day0.jpeg', caption: 'Poster' },
+                { url: './assets/fdp11.jpeg', caption: 'Day 1: Introduction to IoT' },
+                { url: './assets/fdp12.jpeg', caption: 'Day 2: Python Programming Workshop' },
+                { url: './assets/fdp13.jpeg', caption: 'Day 3: Machine Learning Applications' },
+                { url: './assets/fdp14.jpeg', caption: 'Day 4: AI and Generative AI' },
+                { url: './assets/fdp15.jpeg', caption: 'Day 5: Blockchain & Wrap-Up' }
+            ]
         }
+
 
 
     ];
@@ -110,8 +112,6 @@ const FDP = () => {
                                 key={fdp.id}
                                 className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
                             >
-                                <ImageSlider images={fdp.images} title={fdp.title} />
-
                                 <div className="p-6">
                                     <h3 className="text-xl font-semibold text-gray-900 mb-3">
                                         {fdp.title}
@@ -121,9 +121,12 @@ const FDP = () => {
                                         {formatDate(fdp.date)} - {formatDate(fdp.endDate)}
                                     </div>
 
+                                    <ImageSlider images={fdp.images} title={fdp.title} />
+
                                     <p className="text-gray-700 text-sm leading-relaxed">
                                         {fdp.description}
                                     </p>
+
                                 </div>
                             </div>
                         ))}

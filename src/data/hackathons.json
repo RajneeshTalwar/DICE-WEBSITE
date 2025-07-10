@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "Smart Cataloging Hackathon with SHOPCLUES.com",
+        "year": "2024",
+        "description": "The Smart Cataloguing Hackathon, a collaboration between Dice Explore Lab and Shopclues, illuminated the critical role of cataloguing in today’s digital world. Guided by industry mentors and Dr. Rajneesh Talwar, students dove into website development with enthusiasm and purpose.\n\nOver two days, the event buzzed with creativity and teamwork as participants refined their projects with expert feedback. The atmosphere was a mix of serious innovation and joyful camaraderie — games like 'Chinese Whisper' and a jamming session added lighthearted breaks.\n\nOn the final day, anticipation peaked during a crucial mentoring round. Selected teams presented their solutions, impressing judges with their skill and originality.\n\nIn the end, the top team was crowned, their success reflecting the event’s core spirit: collaboration, ingenuity, and resilience. The hackathon left behind a legacy of inspiration, motivating students to continue pushing boundaries in the evolving field of digital cataloguing.",
+        "videoUrl": "/assets/hackathons/hackverse2024.mp4",
+        "images": [
+            "./assets/Hackathons/SmartCatalogingHackathon/image (1).jpeg",
+            "./assets/Hackathons/SmartCatalogingHackathon/image (2).jpeg",
+            "./assets/Hackathons/SmartCatalogingHackathon/image (3).jpeg",
+            "./assets/Hackathons/SmartCatalogingHackathon/image (4).jpeg",
+            "./assets/Hackathons/SmartCatalogingHackathon/image (5).jpeg",
+            "./assets/Hackathons/SmartCatalogingHackathon/image (6).jpeg",
+            "./assets/Hackathons/SmartCatalogingHackathon/image (7).jpeg"
+        ]
+    }
+]
