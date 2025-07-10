@@ -7,5 +7,14 @@
         "sponsor": "NewGen IEDC",
         "year": "",
         "description": ""
+    },
+    {
+        "id": 2,
+        "name": "Cold Storage",
+        "funding": "₹150000",
+        "department": "",
+        "sponsor": "NewGen IEDC",
+        "year": "",
+        "description": ""
     }
 ]

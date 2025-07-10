@@ -16,6 +16,7 @@ export default function Funding() {
                             <tr className="bg-red-600 text-white">
                                 <th className="text-left p-4">Project Name</th>
                                 <th className="text-left p-4">Funding</th>
+                                <th className="text-left p-4">Funding Agency</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -27,6 +28,7 @@ export default function Funding() {
                                 >
                                     <td className="p-4">{project.name}</td>
                                     <td className="p-4">{project.funding}</td>
+                                    <td className="p-4">{project.sponsor}</td>
                                 </tr>
                             ))}
                         </tbody>
