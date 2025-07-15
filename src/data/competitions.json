@@ -1,5 +1,19 @@
 [
     {
+        "sno": 16,
+        "name": "DICE team wins First position in Plinth 2025, a SUST-AIN-A-THON held at LMNIIT Jaipur",
+        "date": "2025-01-24 to 2025-01-26",
+        "organizedBy": "LMNIIT Jaipur",
+        "venue": "LMNIIT Jaipur",
+        "participation": "1st Position",
+        "description": "DICE team wins First position in Plinth 2025, a SUST-AIN-A-THON held at LMNIIT JaipurDICE team, under the guidance of Dr. Rajneesh Talwar, Dean DICE, participated with enthusiasm and determination in plinth 2025, a Sustain-a-thon, at LMNIIT , Jaipur held from 24-26th Jan 2025. Over the three-day event, team worked rigorously on  project, which was designed to tackle key environmental challenges. The event required participants to come up with sustainable solutions, ranging from renewable energy solutions to waste management strategies. After three days of hard work, brainstorming, and collaboration, our team emerged victorious and won the First Prize in the event. The recognition was an acknowledgment of our innovative solution, which we believe can make a real impact in the field of sustainability. As the first-place winners, our team comprising of Mr Nimarpreet and Parul, 2nd Year Students were  awarded a cash prize of ₹10,000 as a token of appreciation for  efforts and contributions",
+        "images": [
+            "./assets/lmniit1.jpg",
+            "./assets/lmniit2.jpg",
+            "./assets/lmniit3.jpg"
+        ]
+    },
+    {
         "sno": 15,
         "name": "DICE wins positions in Sustainable Eco Harvesting - Agro Expo Competition for Green Future",
         "date": "2025-04-02",

@@ -6,7 +6,12 @@
         "department": "",
         "sponsor": "NewGen IEDC",
         "year": "",
-        "description": ""
+        "description": "",
+        "mentor": "Dr. Rajneesh Talwar",
+        "status": "Completed",
+        "mediaType": "link",
+        "mediaUrl": "https://rajneeshtalwar.github.io/DICE-WEBSITE/#/projects",
+        "projectLink": "https://rajneeshtalwar.github.io/DICE-WEBSITE/#/projects"
     },
     {
         "id": 2,
@@ -15,6 +20,23 @@
         "department": "",
         "sponsor": "NewGen IEDC",
         "year": "",
-        "description": ""
+        "description": "",
+         "status": "Completed",
+        "mentor": "Dr. Rajneesh Talwar",
+    "mediaUrl": "",
+    "mediaType": ""
+    },
+     {
+        "id": 3,
+        "name": "AI-Driven Precision Farming with IoT and GIS",
+        "funding": "₹650000",
+        "department": "",
+        "sponsor": "Awadh IIT Ropar-TIF",
+        "year": "",
+        "description": "",
+         "status": "Ongoing",
+        "mentor": "Dr. Rajneesh Talwar",
+     "mediaUrl": "./assets/funding2.jpg",
+    "mediaType": "image"
     }
 ]

@@ -14,5 +14,23 @@
             "./assets/Hackathons/SmartCatalogingHackathon/image (6).jpeg",
             "./assets/Hackathons/SmartCatalogingHackathon/image (7).jpeg"
         ]
+    },
+    {
+        "id": 2,
+        "title": "SAP HACKATHON",
+        "year": "2024",
+        "description": "Chitkara University, (DICE) hosted the regional round of SAP national level Hackfest'24 on April 23, 2024. The event brought together students from various colleges and streams creating a vibrant atmosphere of innovation and collaboration with a focus on problem-solving and creativity,The hackfest'24 featured 3 themes : Crowd source disaster management , Green credit management , Empowering the future: Hacking solution for renewable energy.\nThere were 97 teams i.e around 380 students who participated in the event.\nEvent was inaugurated at Exploratorium where panel was welcomed by a big round of applause \nDr. Rajneesh Talwar Dean DICE welcomed all the audience and judges. Mr. Rahul Sachdev director and head SAP university alliances program - India subcontinent SAP motivated students to participate in all such events and informed them about the selection procedure and final round to be held in july.  Dr.  Kuldeep Sharma made students familiar with the importance of hackathon and how the same will help them in placements. Six panels with each having one industry expert and one Academic expert were formed to look into the ideas being presented by the teams. Each team got 10 minutes for pitch and 5 minutes for question answers. The Chitkara University College Hackfest'24 in association with SAP served as a catalyst for creativity, collaboration, and problem-solving among students. It provided a platform for participants to apply their skills to real-world challenges, fostering innovation and entrepreneurship. The event also strengthened industry-academia partnerships and highlighted the importance of technology in addressing societal issues. The event not only encouraged innovation but also inspired participants to continue exploring new ideas and pushing the boundaries of technology.",
+        "videoUrl": "",
+        "images": [
+            "./assets/Hackathons/SAP/SAP1.jpg",
+            "./assets/Hackathons/SAP/SAP2.jpg",
+            "./assets/Hackathons/SAP/SAP3.jpg",
+            "./assets/Hackathons/SAP/SAP4.jpg",
+            "./assets/Hackathons/SAP/SAP5.jpg",
+            "./assets/Hackathons/SAP/SAP6.jpg",
+            "./assets/Hackathons/SAP/SAP7.jpg",
+            "./assets/Hackathons/SAP/SAP8.jpg"
+        ]
     }
+
 ]
