@@ -8,7 +8,7 @@ export default function Navbar() {
   const navLinks = [
     { title: "Home", path: "/" },
     { title: "About", path: "/about" },
-    { title: "Industrial visit", path: "/national" },
+    { title: "Industrial visits", path: "/national" },
     { title: "Projects", path: "/projects" },
     { title: "Events", path: "/event" },
     { title: "Research", path: "/research" },

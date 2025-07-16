@@ -21,12 +21,12 @@
         "sponsor": "NewGen IEDC",
         "year": "",
         "description": "",
-         "status": "Completed",
+        "status": "Completed",
         "mentor": "Dr. Rajneesh Talwar",
-    "mediaUrl": "",
-    "mediaType": ""
+        "mediaUrl": "./assets/ideathon_idea_cold_storage-0.mp4",
+        "mediaType": "video"
     },
-     {
+    {
         "id": 3,
         "name": "AI-Driven Precision Farming with IoT and GIS",
         "funding": "₹650000",
@@ -34,9 +34,9 @@
         "sponsor": "Awadh IIT Ropar-TIF",
         "year": "",
         "description": "",
-         "status": "Ongoing",
+        "status": "Ongoing",
         "mentor": "Dr. Rajneesh Talwar",
-     "mediaUrl": "./assets/funding2.jpg",
-    "mediaType": "image"
+        "mediaUrl": "./assets/funding2.jpg",
+        "mediaType": "image"
     }
 ]
