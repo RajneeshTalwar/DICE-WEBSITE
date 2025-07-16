@@ -48,16 +48,21 @@ html {
   }
 
   66.7%,
-  77.7% {
+  75.7% {
     background-image: url("/public/assets/herobg7.jpg");
   }
 
-  77.8%,
-  88.8% {
+  75.8%,
+  80.8% {
+    background-image: url("/public/assets/about45.jpg");
+  }
+
+  80.9%,
+  90.8% {
     background-image: url("/public/assets/iit_ropar_ai_smart_farming.jpg");
   }
 
-  88.9%,
+  90.9%,
   100% {
     background-image: url("/public/assets/dice_ebike.jpg");
   }

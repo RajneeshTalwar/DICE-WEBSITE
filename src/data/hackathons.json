@@ -31,6 +31,43 @@
             "./assets/Hackathons/SAP/SAP7.jpg",
             "./assets/Hackathons/SAP/SAP8.jpg"
         ]
+    },
+     {
+        "id": 3,
+        "title": "HACKATHON ON SOLUTION FOR WASTE REDUCTION IN ASSOCIATION WITH PUNJAB POLLUTION CONTROL BOARD",
+        "year": "2023",
+        "description": "The Hackathon on “Solutions for Waste Reduction,” organized by DICE in association with PPCB, engaged students for two days of innovation and learning. Participants developed impactful projects addressing waste management and were evaluated on pitching, presentation, innovation, and feasibility by a distinguished panel including Mr. Rajeev Goyal, Er. Rohit Singla from PPCB, and Dr. Rajneesh Talwar, Dean, DICE. Dr. Madhu Chitkara, Pro Chancellor of Chitkara University, graced the occasion, inspiring everyone with her guidance. In the hardware category, Team Shubham and Anjani from Sant Longowal Institute of Engineering and Technology won first prize for their solution to prevent water contamination, while Team Vizion from Dronacharya College of Engineering and Team Falcons from Baba Banda Singh Bahadur Engineering College secured second and third prizes respectively. In the software category, Team Vikas Kumar Garg from Baba Farid College, Bathinda, earned first prize for their method to degrade PET plastic, followed by Team OBOT with their tree-planting initiative and Team DigiAccess with a solution for reducing food and paper waste. Dr. Madhu Chitkara presented awards to the winners, and all participants were felicitated with certificates and gifts. The hackathon inspired the next generation to create sustainable solutions and fostered a spirit of collaboration and technological innovation among everyone involved.",
+        "videoUrl": "",
+        "images": [
+            "./assets/Hackathons/Punjabpollution/p1.jpg",
+            "./assets/Hackathons/Punjabpollution/p2.jpg",
+            "./assets/Hackathons/Punjabpollution/p3.jpg",
+            "./assets/Hackathons/Punjabpollution/p4.jpg",
+            "./assets/Hackathons/Punjabpollution/p5.jpg",
+            "./assets/Hackathons/Punjabpollution/p6.jpg",
+            "./assets/Hackathons/Punjabpollution/p7.jpg",
+            "./assets/Hackathons/Punjabpollution/p8.jpg",
+            "./assets/Hackathons/Punjabpollution/p9.jpg",
+            "./assets/Hackathons/Punjabpollution/p10.jpg",
+            "./assets/Hackathons/Punjabpollution/p11.jpg",
+            "./assets/Hackathons/Punjabpollution/p12.jpg",
+            "./assets/Hackathons/Punjabpollution/p13.jpg",
+            "./assets/Hackathons/Punjabpollution/p14.jpg",
+            "./assets/Hackathons/Punjabpollution/p15.jpg",
+            "./assets/Hackathons/Punjabpollution/p16.jpg",
+            "./assets/Hackathons/Punjabpollution/p17.jpg",
+            "./assets/Hackathons/Punjabpollution/p18.jpg",
+            "./assets/Hackathons/Punjabpollution/p19.jpg",
+            "./assets/Hackathons/Punjabpollution/p20.jpg",
+            "./assets/Hackathons/Punjabpollution/p21.jpg",
+            "./assets/Hackathons/Punjabpollution/p22.jpg",
+            "./assets/Hackathons/Punjabpollution/p23.jpg",
+            "./assets/Hackathons/Punjabpollution/p24.jpg",
+            "./assets/Hackathons/Punjabpollution/p25.jpg",
+            "./assets/Hackathons/Punjabpollution/p26.jpg"
+            
+          
+        ]
     }
 
 ]
