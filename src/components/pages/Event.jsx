@@ -50,12 +50,28 @@ export default function Event() {
       {/* Removed Ongoing Events */}
 
       <div className="container mx-auto pt-10 py-8 p-4">
+       
         <h1 className="text-4xl font-semibold mb-12 sm:text-5xl text-center">
           Upcoming Events
         </h1>
+
+
+        <div className="bg-black text-white py-2 overflow-hidden">
+  <div className="relative w-full">
+    <div className="flex animate-marquee space-x-12">
+      <span className="text-lg font-semibold whitespace-nowrap">
+         Participation in IISF 2025 | Workshop on Arduino |  Workshop on python |  Workshop on Networking |
+      </span>
+      <span className="text-lg font-semibold whitespace-nowrap">
+        Participation in IISF 2025 | Workshop on Arduino |  Workshop on python |  Workshop on Networking | 
+      </span>
+    </div>
+  </div>
+</div>
+
         {events_upcoming.length === 0 ? (
-          <p className="text-2xl text-center">
-            No upcoming events at the moment
+          <p className="text-2xl pt-10 text-center">
+            For Parctipation in the following events you may contact Ms. Navneet ( Ph no: 8146939181 )
           </p>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
