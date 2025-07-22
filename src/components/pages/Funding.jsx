@@ -2,6 +2,27 @@ import { useState, useRef, useEffect } from "react";
 import Navbar from "../Navbar";
 import fundingData from "../../data/Funding.json";
 
+// Slideshow component for image media
+function ImageSlideshow({ images }) {
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentIndex((prev) => (prev + 1) % images.length);
+        }, 2000); // 2 seconds interval
+
+        return () => clearInterval(interval);
+    }, [images.length]);
+
+    return (
+        <img
+            src={images[currentIndex]}
+            alt={`Slideshow ${currentIndex + 1}`}
+            className="w-32 h-20 object-cover rounded transition-opacity duration-700"
+        />
+    );
+}
+
 export default function Funding() {
     const [selected, setSelected] = useState(null);
     const modalRef = useRef();
@@ -74,7 +95,12 @@ export default function Funding() {
                                                         viewBox="0 0 24 24"
                                                         stroke="currentColor"
                                                     >
-                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M4 6h8a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V8a2 2 0 012-2z" />
+                                                        <path
+                                                            strokeLinecap="round"
+                                                            strokeLinejoin="round"
+                                                            strokeWidth={2}
+                                                            d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M4 6h8a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V8a2 2 0 012-2z"
+                                                        />
                                                     </svg>
                                                 </div>
                                             ) : project.mediaType === "link" ? (
@@ -88,11 +114,7 @@ export default function Funding() {
                                                     View Link
                                                 </a>
                                             ) : (
-                                                <img
-                                                    src={project.mediaUrls[0]}
-                                                    alt={project.name}
-                                                    className="w-32 h-20 object-cover rounded"
-                                                />
+                                                <ImageSlideshow images={project.mediaUrls} />
                                             )
                                         ) : (
                                             <span className="text-gray-500">N/A</span>
