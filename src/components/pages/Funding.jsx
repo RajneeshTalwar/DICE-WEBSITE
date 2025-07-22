@@ -6,7 +6,6 @@ export default function Funding() {
     const [selected, setSelected] = useState(null);
     const modalRef = useRef();
 
-    // Close modal on outside click
     useEffect(() => {
         function handleClickOutside(event) {
             if (modalRef.current && !modalRef.current.contains(event.target)) {
@@ -65,7 +64,7 @@ export default function Funding() {
                                         )}
                                     </td>
                                     <td className="p-4">
-                                        {project.mediaUrl ? (
+                                        {project.mediaUrls && project.mediaUrls.length > 0 ? (
                                             project.mediaType === "video" ? (
                                                 <div className="w-32 h-20 flex items-center justify-center bg-gray-100 rounded">
                                                     <svg
@@ -80,7 +79,7 @@ export default function Funding() {
                                                 </div>
                                             ) : project.mediaType === "link" ? (
                                                 <a
-                                                    href={project.mediaUrl}
+                                                    href={project.mediaUrls[0]}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                     className="text-blue-600 underline"
@@ -90,7 +89,7 @@ export default function Funding() {
                                                 </a>
                                             ) : (
                                                 <img
-                                                    src={project.mediaUrl}
+                                                    src={project.mediaUrls[0]}
                                                     alt={project.name}
                                                     className="w-32 h-20 object-cover rounded"
                                                 />
@@ -122,9 +121,6 @@ export default function Funding() {
                             <p className="text-gray-600 mb-1">
                                 <strong>Funding:</strong> {selected.funding}
                             </p>
-                            {/* <p className="text-gray-600 mb-1">
-                                <strong>Department:</strong> {selected.department}
-                            </p> */}
                             <p className="text-gray-600 mb-1">
                                 <strong>Sponsor:</strong> {selected.sponsor}
                             </p>
@@ -143,21 +139,23 @@ export default function Funding() {
                                     </span>
                                 )}
                             </p>
-                            {/* <p className="text-gray-600 mb-1">
-                                <strong>Year:</strong> {selected.year}
-                            </p> */}
                             <p className="text-gray-700 mt-4">{selected.description}</p>
-                            {selected.mediaUrl && (
-                                <div className="mt-4">
+
+                            {/* Media Section */}
+                            {selected.mediaUrls && selected.mediaUrls.length > 0 && (
+                                <div className="mt-4 space-y-4">
                                     {selected.mediaType === "video" ? (
-                                        <video
-    src={selected.mediaUrl}
-    controls
-    className="w-full max-h-96 rounded object-contain"
-/>
+                                        selected.mediaUrls.map((url, idx) => (
+                                            <video
+                                                key={idx}
+                                                src={url}
+                                                controls
+                                                className="w-full max-h-96 rounded object-contain"
+                                            />
+                                        ))
                                     ) : selected.mediaType === "link" ? (
                                         <a
-                                            href={selected.mediaUrl}
+                                            href={selected.mediaUrls[0]}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="text-blue-600 underline"
@@ -165,13 +163,16 @@ export default function Funding() {
                                             Open Link
                                         </a>
                                     ) : (
-                                        <div className="flex justify-center">
-  <img
-    src={selected.mediaUrl}
-    alt={selected.name}
-    className="max-w-full max-h-96 rounded object-contain"
-  />
-</div>
+                                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                            {selected.mediaUrls.map((url, idx) => (
+                                                <img
+                                                    key={idx}
+                                                    src={url}
+                                                    alt={`${selected.name} ${idx + 1}`}
+                                                    className="max-w-full max-h-96 rounded object-contain"
+                                                />
+                                            ))}
+                                        </div>
                                     )}
                                 </div>
                             )}
