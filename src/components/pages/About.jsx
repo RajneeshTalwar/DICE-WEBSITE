@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
 import { FaLinkedin } from "react-icons/fa";
 import Navbar from "../Navbar";
 import image from "/public/assets/diceLogo.png";

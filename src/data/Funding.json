@@ -9,9 +9,12 @@
         "description": "",
         "mentor": "Dr. Rajneesh Talwar",
         "status": "Completed",
-        "mediaType": "link",
-        "mediaUrl": "https://rajneeshtalwar.github.io/DICE-WEBSITE/#/projects",
-        "projectLink": "https://rajneeshtalwar.github.io/DICE-WEBSITE/#/projects"
+        "mediaType": "image",
+        "mediaUrls": [
+            "./assets/fundebike1.jpg" ,
+             "./assets/fundebike2.jpg" , 
+             "./assets/fundebike3.jpg"] ,
+        "projectLink": ""
     },
     {
         "id": 2,
@@ -23,7 +26,7 @@
         "description": "",
          "status": "Completed",
         "mentor": "Dr. Rajneesh Talwar",
-    "mediaUrl": "./assets/ideathon_cold_storage_01.mp4",
+    "mediaUrls":[ "./assets/ideathon_cold_storage_01.mp4"],
     "mediaType": "video"
     },
      {
@@ -36,7 +39,7 @@
         "description": "",
          "status": "Ongoing",
         "mentor": "Dr. Rajneesh Talwar",
-     "mediaUrl": "./assets/funding2.jpg",
+     "mediaUrls": ["./assets/funding2.jpg"],
     "mediaType": "image"
     }
 ]
