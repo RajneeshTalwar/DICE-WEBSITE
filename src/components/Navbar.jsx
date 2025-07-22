@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import logo from "/public/assets/diceLogo.png";
 import { Link } from "react-router-dom";
 import { FaBarsStaggered } from "react-icons/fa6";

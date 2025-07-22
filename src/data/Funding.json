@@ -23,8 +23,10 @@
         "description": "",
         "status": "Completed",
         "mentor": "Dr. Rajneesh Talwar",
-        "mediaUrl": "./assets/ideathon_idea_cold_storage-0.mp4",
-        "mediaType": "video"
+        "mediaUrl": [
+            "./assets/ideathon_cold_storage_01.mp4"
+        ],
+        "mediaType": ""
     },
     {
         "id": 3,
