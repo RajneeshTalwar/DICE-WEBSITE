@@ -54,8 +54,23 @@ export default function About() {
           <h1 className="text-4xl md:text-5xl font-semibold">Who we are...?</h1>
           <p className="text-md md:text-lg text-gray-600 my-12">
             {/* Content omitted for brevity */}
-            We are a vibrant community fostering innovation, interdisciplinary collaboration, and sustainable solutions to real-world problems.
-          </p>
+The Department of Interdisciplinary Courses in Engineering (DICE) at
+            Chitkara University fosters collaboration among students and faculty
+            from diverse academic backgrounds. It encourages them to work
+            together on interdisciplinary projects, competitions, and
+            hackathons, thereby promoting cross-disciplinary competencies and
+            futuristic career decisions. By providing a platform for interaction
+            with industry professionals, DICE helps students make informed
+            career choices and stay abreast of industry trends. This initiative
+            aligns with the objectives of the Government of India's National
+            Education Policy (NEP) 2020, which emphasizes vocational exposure
+            for learners and the integration of vocational education into
+            academic institutions. NEP 2020's mandate is expected to lead to
+            significant growth in vocational education, making it accessible to
+            millions of students across the country. DICE embodies a community
+            of developers, innovators, and entrepreneurs dedicated to leveraging
+            technology to create positive change and fostering collaboration,
+            innovation, and creativity.          </p>
         </div>
         <div className="lg:w-1/3 flex items-center justify-center">
           <img src={image} alt="dice logo" />
