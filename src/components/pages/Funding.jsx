@@ -9,7 +9,7 @@ function ImageSlideshow({ images }) {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentIndex((prev) => (prev + 1) % images.length);
-        }, 2000); // 2 seconds interval
+        }, 2000);
 
         return () => clearInterval(interval);
     }, [images.length]);
@@ -71,7 +71,20 @@ export default function Funding() {
                                     <td className="p-4">{index + 1}</td>
                                     <td className="p-4">{project.name}</td>
                                     <td className="p-4">{project.funding}</td>
-                                    <td className="p-4">{project.sponsor}</td>
+                                    <td className="p-4">
+                                        <div>{project.sponsor}</div>
+                                        {project.sponsorLink && (
+                                            <a
+                                                href={project.sponsorLink}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="text-blue-600 text-sm underline block"
+                                                onClick={(e) => e.stopPropagation()}
+                                            >
+                                                Visit Site
+                                            </a>
+                                        )}
+                                    </td>
                                     <td className="p-4">{project.mentor}</td>
                                     <td className="p-4">
                                         {project.status === "Ongoing" ? (
@@ -145,6 +158,16 @@ export default function Funding() {
                             </p>
                             <p className="text-gray-600 mb-1">
                                 <strong>Sponsor:</strong> {selected.sponsor}
+                                {selected.sponsorLink && (
+                                    <a
+                                        href={selected.sponsorLink}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-blue-600 text-sm underline ml-2"
+                                    >
+                                        Visit Site
+                                    </a>
+                                )}
                             </p>
                             <p className="text-gray-600 mb-1">
                                 <strong>Mentor/PI:</strong> {selected.mentor}
