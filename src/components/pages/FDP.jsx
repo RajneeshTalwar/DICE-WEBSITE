@@ -47,8 +47,8 @@ const FDP = () => {
         {
             id: 2,
             title: 'Emerging Interdisciplinary Technologies in Engineering 2.0',
-            date: '2025-08-23',
-            endDate: '2025-08-27',
+            date: '2025-06-23',
+            endDate: '2025-06-27',
             description:
                 'The Department of Interdisciplinary Courses in Engineering (DICE), Chitkara University, Punjab, successfully organized a five-day Faculty Development Program (FDP) titled “Emerging Interdisciplinary Technologies in Engineering 2.0” from June 23rd to June 27th, 2025. The program was attended by participants from both within and outside Chitkara University. The FDP aimed to provide in-depth theoretical understanding and hands-on exposure to some of the most rapidly and latest evolving interdisciplinary domains in engineering, such as (IoT), Python Programming, Machine Learning, (AI), Generative AI, Explainable AI (XAI), and Blockchain.The FDP was inaugurated by Prof. (Dr.) Rajneesh Talwar, Dean DICE, who also delivered multiple sessions throughout the program.',
             images: [
