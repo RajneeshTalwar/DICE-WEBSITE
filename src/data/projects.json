@@ -127,6 +127,21 @@
             "./assets/projects/Smart-Barricade-0.jpeg"
         ]
     },
+       {
+        "id": 9,
+        "title": "Office Automation using IOT",
+        "description": "",
+        "specs": [],
+        "sdgs": [
+           
+        ],
+        "sdg_explanation": [
+          
+        ],
+        "images": [
+            "./assets/projects/office-autonation.mp4"
+        ]
+    },
     {
         "id": 8,
         "title": "E-Cycle",
