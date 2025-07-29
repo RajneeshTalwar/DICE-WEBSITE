@@ -9,7 +9,7 @@ export default function Event() {
   return (
     <div className="Events">
       <Navbar />
-      <div className="container mx-auto pt-40 py-8 p-4">
+      <div className="container mx-auto pt-24 py-8 p-4">
 
         <h1 className="text-4xl font-semibold mb-12 sm:text-5xl text-center">
           Upcoming Events
@@ -67,7 +67,7 @@ export default function Event() {
           </div>
         )}
       </div>
-      <div className="container mx-auto pt-40">
+      <div className="container mx-auto pt-12">
         <h1 className="text-4xl font-semibold mb-12 sm:text-5xl text-center">
           Events
         </h1>
