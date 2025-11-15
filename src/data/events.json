@@ -1,7 +1,30 @@
 [
     {
-        "id": 1,
-        "title": "TECHINNOVATE 2.0",
+        "id": 16,
+        "title": "Shiksha Mahakumbh Abhiyan 2025 ",
+        "date": "2025-11-02",
+        "content": "Department of Interdisciplinary Courses in Engineering (DICE), played a key role in organising and coordinating at Shiksha Mahakumbh Abhiyan 2025 which was held from 31st October to 2nd November 2025 at the National Institute of Pharmaceutical Education & Research (NIPER), Mohali, Punjab. The event served as a national platform uniting educators, researchers, innovators, and students from across India to deliberate on the evolving landscape of education and its role in building Viksit Bharat @ 2047. Dr Rajneesh Talwar, Professor & Dean, DICE, Chitkara University, and the team of the department actively contributed to two major events i.e Project display and Paper presentation. the Project Display Event, where innovative projects from schools and colleges across India showcased creativity, technology, and social impact.Dr Talwar chaired the technical session on “EdTech and Digital Education,” where 15 research papers were presented, highlighting transformative ideas in AI-enabled learning, digital pedagogy, and technology-driven education.The contribution of the Department of Interdisciplinary Courses in Engineering (DICE), Chitkara University, in the Shiksha Mahakumbh Abhiyan 2025 underscores the university’s commitment to educational innovation, interdisciplinary collaboration, and national educational development.",
+        "images": [
+            "./assets/events/shiksha (1).jpeg",
+            "./assets/events/shiksha (2).jpeg",
+            "./assets/events/shiksha (3).jpeg",
+            "./assets/events/shiksha (4).jpeg",
+            "./assets/events/shiksha (5).jpeg",
+            "./assets/events/shiksha (6).jpeg"
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Exploring Hackathons and Projects with DICE",
+        "date": "2025-08-29",
+        "content": "Dr. Rajneesh Talwar led an engaging session titled 'Exploring Hackathons and Projects with DICE' for first-year students of Computer Science Engineering (CSE), Artificial Intelligence (AI), and Future Technology. The session emphasized the power of innovation, highlighting how technology and creativity can come together to drive meaningful societal impact. Dr. Talwar encouraged students to cultivate an innovative mindset early in their academic journey.\nSmart India Hackathon (SIH) 2025: Dr. Talwar provided detailed insights into SIH 2025, a national-level platform that enables students to develop innovative solutions to real-world challenges through teamwork.\nThe hackathon covers various themes, including:\n- Smart Automation,Smart Resource Conservation\nSmart Education,Disaster Management\nBlockchain & Cybersecurity,Renewable / Sustainable Energy\nTravel & Tourism,Clean & Green Technology\nRobotics and Drones,Transportation & Logistics,Smart Vehicles\nAgriculture, FoodTech & Rural Development,MedTech / BioTech / HealthTech\nHeritage & Culture,Fitness & Sports\nToys & Games, Space Technology\nDr. Talwar shared tips on analyzing problem statements, aligning solutions with industry and societal needs, and building effective multidisciplinary teams.\nThe session inspired students to utilize DICE as a hub for innovation and experimentation, preparing them for SIH 2025 and other hackathons, entrepreneurial ventures, and future-ready projects",
+        "images": [
+            "./assets/events/dice_poster_remaster.png"
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Techinnovate 2.0",
         "date": "2025-05-19",
         "content": "Department of Interdisciplinary Courses in Engineering (DICE) at Chitkara University organized “TECHINNOVATE 2.0”, a showcase of creativity and innovation in technology. The event featured the top 36 projects selected from over 200+ submissions. The projects were meticulously curated for their innovation, real world applicability and technical finesse.The event was inaugurated with great enthusiasm by Dr. K.K. Mishra,(Pro Vice Chancellor Accreditation and Quality Assurance Cell), Dr. Rakesh Sharma (Registrar), and Dr. Praveen Kumar Khosla (Pro Vice Chancellor, Advanced research). The event also saw the participation of Dr. Rajeev (Controller of Examinations), and Dr. Shushil Narang, Dean AI . Dr. Rajneesh Talwar, Professor and Dean, DICE, warmly welcomed the dignitaries and accompanied them as they interacted with the students.Students demonstrated a wide array of IoT-based innovations across diverse domains such as smart healthcare, home automation, liquid vending systems, wearable technologies, human follower rovers and stair-climbing robots. The event highlighted the ingenuity and technical acumen of young engineers aiming to solve real-world challenges through smart technology.Among the displayed projects, five outstanding innovations were awarded for their excellence in design, implementation and societal impact. TECHINNOVATE 2.0 served not only as a platform to celebrate student innovation but also as a bridge between academic learning and industry relevance.This event fostered an environment of learning, collaboration, and future-focused thinking, encouraging students to build solutions that contribute meaningfully to society and covered  SDG 3 – Good Health and Well-being, SDG 4 – Quality Education, SDG 7 – Affordable and Clean Energy, SDG 9 – Industry, Innovation and Infrastructure, SDG 11 – Sustainable Cities and Communities, SDG 12 – Responsible Consumption and Production and SDG 17 – Partnerships for the Goals",
         "images": [
@@ -18,8 +41,8 @@
         ]
     },
     {
-        "id": 2,
-        "title": "TECHNOVISION 4.0",
+        "id": 12,
+        "title": "Technovision 4.0",
         "date": "2025-05-31",
         "content": "The Department of Interdisciplinary Courses in Engineering (DICE) at Chitkara University proudly hosted TECHNOVISION 4.0 — a vibrant celebration of innovation, creativity, and real-world problem-solving. From an automated voice-controlled wheelchair to a gesture-based navigation system for the visually impaired, the event spotlighted 34 standout projects handpicked from over 180+ submissions — each a testament to the ingenuity of our budding engineers.",
         "images": [
@@ -38,8 +61,8 @@
         ]
     },
     {
-        "id": 13,
-        "title": "EXPERT SESSION By Dr.Rajneesh Talwar for Abstract writing",
+        "id": 11,
+        "title": "Expert Session By Dr.Rajneesh Talwar for Abstract writing",
         "date": "2025-07-14",
         "content": "A pre-conference workshop session was organised by CRIO, Chitkara on “Topic: Think, Test, Theorize: Interactive Bootcamp on Psychological Research Design”on 14th July 2025.An expert session was organized for psychology students wherein Dr. Rajneesh Talwar, Dean DICE deliberated on the topic. The session aimed to equip students with the essential skills and techniques required to write an effective abstract for international conference. Dr.Talwar began the session by emphasizing the significance of abstracts in academic submissions, particularly in international conferences and journal where the abstract often determines acceptance and sets the stage for presentation impact. Key points covered included: Understanding the Abstract Structure, Characteristics of a Good Abstract, Common Mistakes to Avoid, Tips for Success. The session also included a practical segment where students were shared a sample abstracts based on hypothetical research topics. The session was informative and well-received by the participants. Dr. Rajneesh Talwar’s expertise and engaging delivery greatly enhanced the students’ understanding of abstract writing. The session concluded with an interactive Q&A, allowing students to clarify doubts and gain deeper insight into academic writing standards for international platforms.",
         "images": [
@@ -49,7 +72,7 @@
         ]
     },
     {
-        "id": 9,
+        "id": 10,
         "title": "Vigyaan Manthan 2025",
         "date": "2025-04-24",
         "content": "Department of Interdisciplinary courses in engineering (DICE) showcased 30 Projects in \"Vigyaan Manthan 2025\" held at Chitkara University, Punjab in alpha zone on 24-04-2025. This inspiring event was supported by the Punjab State Council for Science and Technology, highlighting a strong commitment to fostering innovation and scientific spirit among young minds. Students from DICE showcased an impressive array of innovative projects focused on Electric Vehicles, Internet of Things (IoT), sustainable energy solutions, and smart automation demonstrating the future-ready mindset and technical prowess of Chitkara’s budding engineers. ",
@@ -58,7 +81,7 @@
         ]
     },
     {
-        "id": 8,
+        "id": 9,
         "title": "Indo-African Academia Industry Meet",
         "date": "2025-04-07",
         "content": "Department of Interdisciplinary Courses in Engineering (DICE Chitkara University) presented their innovative project, “Smart Electric Wheelchair,” at the Indo-African Academia Industry Meet on hashtag#Healthcare hashtag#Innovations, held on April 7, 2025. The event was jointly organized by the Department of Healthcare Management, Chitkara Business School, and the DST-funded Chitkara University Technology Enabling Centre (CU-TEC). This project was mentored by Dr. Rajneesh Talwar, Professor and Dean, DICE. Foreign delegates from Africa attended the event and commended the innovation, calling it “a very good and impactful initiative that aligns well with current global healthcare needs.” The project bridges the gap between engineering and healthcare, embodying a true interdisciplinary approach to solving real-world problems.",
@@ -67,7 +90,7 @@
         ]
     },
     {
-        "id": 7,
+        "id": 8,
         "title": "Arduino/NodeMCU using Sensors",
         "date": "2025-04-14",
         "content": "The Department of Interdisciplinary Courses in Engineering (DICE) at Chitkara University organized a hands-on workshop titled - “Arduino/NodeMCU Using Sensors” on April 4, 2025, at Turing Block (TG022). The session was led by Prof. (Dr.) Rajneesh Talwar, Dean, DICE, and Dr. Pardeep Kumar Jindal, DICE department. Dr. Talwar introduced participants to the capabilities of Arduino and NodeMCU platforms in IoT applications, emphasizing their use with various sensors.",
@@ -76,7 +99,7 @@
         ]
     },
     {
-        "id": 10,
+        "id": 7,
         "title": "Innovative Ideas Implementation Using Drone",
         "date": "2025-02-13",
         "content": "The Department of Interdisciplinary Courses in Engineering (DICE) at Chitkara University organized a workshop titled \"Innovative Ideas Implementation Using Drone\" on February 13, 2025. The session, focused on leveraging drone technology for innovation and real-world applications.",
@@ -94,7 +117,7 @@
         ]
     },
     {
-        "id": 11,
+        "id": 5,
         "title": "National Science Day Presentation Competition",
         "date": "2024-02-28",
         "content": "DICE organized a presentation competition on indigenous technologies, promoting innovation and scientific curiosity among students. 66 presentations showcased creative ideas, enhancing research skills and communication abilities.",
@@ -103,7 +126,7 @@
         ]
     },
     {
-        "id": 12,
+        "id": 4,
         "title": "Arduino and IoT Workshop",
         "date": "2024-02-03",
         "content": "DICE organized a workshop focusing on Arduino and IoT, led by Dr. Rajneesh Talwar and Dr. Manvinder Sharma. Students gained hands-on experience in coding, implementing LED circuits, traffic lights, and more, fostering innovation in engineering.",
@@ -113,7 +136,7 @@
     },
     {
         "id": 3,
-        "title": "DICE-SKOAR Gamers Arcade",
+        "title": "Dice-Skoar Gamers Arcade",
         "date": "2023-12-08",
         "content": "Organized the 'DICE-SKOAR Gamers Arcade'. Over 500 students participated, experiencing AR/VR gaming, PS5, and laptop gaming. The event showcased how gaming technologies enhance learning and offered online gaming competitions with cash prizes.",
         "images": [
@@ -121,7 +144,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 2,
         "title": "Expert Talk on Data Structures",
         "date": "2023-08-04",
         "content": "DICE organized an Expert Talk on Data Structures at Plato Hall. Dr. Rajneesh Talwar introduced the session, followed by Dr. Sandeep Sachdeva's informative talk covering types, applications, time complexity, optimization, and live coding demonstrations.",
@@ -130,12 +153,21 @@
         ]
     },
     {
-        "id": 4,
+        "id": 1,
         "title": "International Conference",
         "date": "2023-01-01",
         "content": "Dr. Rajneesh Talwar's project paper on 'E-Bike' was selected at the International Conference, organized by DST-Centre, Panjab University, RFRF, FPTU-Vietnam, NTU-UK, and CICU. The conference facilitated discussions on practical knowledge opportunities, and funding initiatives, aiming to foster innovation and collaboration between industry, and government bodies.",
         "images": [
             "./assets/blog4.jpeg"
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Exploring Hackathons and Projects with DICE",
+        "date": "2025-08-30",
+        "content": "",
+        "images": [
+            "./assets/events/dice_poster_(002).png"
         ]
     }
 ]
