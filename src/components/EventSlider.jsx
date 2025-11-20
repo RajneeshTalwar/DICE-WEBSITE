@@ -20,7 +20,7 @@ const BlogSlider = () => {
 
   // Auto-slide every 5 seconds
   useEffect(() => {
-    const autoSlide = setInterval(handleNext, 5000);
+    const autoSlide = setInterval(handleNext, 10000);
     return () => clearInterval(autoSlide);
   }, []);
 
@@ -55,7 +55,7 @@ const BlogCard = ({ blog }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       setImageIndex((prevIndex) => (prevIndex + 1) % blog.images.length);
-    }, 3000);
+    }, 5000);
     return () => clearInterval(interval);
   }, [blog.images.length]);
 
