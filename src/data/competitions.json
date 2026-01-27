@@ -1,4 +1,19 @@
 [
+     {
+        "sno": 17,
+        "name": "Chitkara (DICE) Shines at IIT Jodhpur",
+        "date": "2026-01-17",
+        "organizedBy": "IIT Jodhpur",
+        "venue": "IIT Jodhpur",
+        "participation": "3rd Position",
+        "description": "On 17 January 2026, IIT Jodhpur hosted a dynamic Hackathon and Startup Presentation Event, showcasing cutting-edge entrepreneurial ideas. The Chitkara (DICE) first year team achieved third position with a visionary startup in the EdTech sector, emphasizing AI-driven adaptive learning systems and cloud-based scalability. Their solution integrates machine learning analytics to personalize learning, identify gaps, and deliver real-time feedback. By embedding gamification and interactive simulations, the model enhances learner engagement and outcomes. This recognition highlights the team’s commitment to reimagining education through technology-enabled ecosystems, bridging innovation with academic excellence.",
+        "images": [
+            "./assets/iitjodhpur3.jpeg"
+           
+           
+            
+        ]
+    },
     {
         "sno": 16,
         "name": "DICE team wins First position in Plinth 2025, a SUST-AIN-A-THON held at LMNIIT Jaipur",
