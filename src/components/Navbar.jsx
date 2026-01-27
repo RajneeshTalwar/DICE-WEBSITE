@@ -20,9 +20,11 @@ export default function Navbar() {
   ];
 
   const [sidebarPos, setSidebarPos] = useState("-right-full");
+  
   const toggleSidebar = () => {
     setSidebarPos(sidebarPos === "-right-full" ? "-right-0" : "-right-full");
   };
+
   return (
     <div
       className="w-full bg-white fixed top-0 z-50 shadow-2xl rounded-b-2xl border-b border-gray-200"
@@ -44,18 +46,13 @@ export default function Navbar() {
           ))}
         </nav>
         <div className="sm:hidden">
-          <button>
-            <FaBarsStaggered className="text-3xl" onClick={toggleSidebar} />
+          <button onClick={toggleSidebar}>
+            <FaBarsStaggered className="text-3xl" />
           </button>
-          <div
-            className={`w-[250px] h-screen fixed ${sidebarPos} top-0 duration-500 transition-all flex flex-col bg-red-600`}
-          >
+          <div className={`w-[250px] h-screen fixed ${sidebarPos} top-0 duration-500 transition-all flex flex-col bg-red-600`}>
             <div className="flex pt-8 pr-8 justify-end w-full">
-              <button>
-                <FaBarsStaggered
-                  className="text-3xl rotate-180 text-white"
-                  onClick={toggleSidebar}
-                />
+              <button onClick={toggleSidebar}>
+                <FaBarsStaggered className="text-3xl rotate-180 text-white" />
               </button>
             </div>
             <div className="flex flex-col items-center justify-center p-4">
@@ -64,6 +61,7 @@ export default function Navbar() {
                   key={link.title}
                   to={link.path}
                   className="font-medium w-[90%] text-white hover:text-red-600 duration-200 hover:bg-white my-2 text-center rounded-md p-2 hover:shadow-xl"
+                  onClick={toggleSidebar}
                 >
                   {link.title}
                 </Link>
@@ -76,9 +74,15 @@ export default function Navbar() {
         </div>
       </div>
       
-      {/* MOU Heading at the bottom */}
       <div className="text-center py-2 border-t border-gray-100">
-        <h1 className="text-lg font-semibold text-gray-700">MOU</h1>
+        <a
+          href="https://www.linkedin.com/posts/dr-rajneesh-talwar-58086a31_tgpsglobal-chitkarauniversity-2026begins-activity-7420352526451089408-MXFl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEnwLlMB14v00NgcmMnBbhmgKp21UPCTpCc"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-lg font-semibold text-gray-700 hover:text-red-500 duration-200 transition-colors cursor-pointer"
+        >
+          MOU
+        </a>
       </div>
     </div>
   );

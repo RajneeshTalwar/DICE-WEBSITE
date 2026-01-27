@@ -44,5 +44,19 @@
         "mentor": "Dr. Rajneesh Talwar",
      "mediaUrls": ["./assets/funding2.jpg"],
     "mediaType": "image"
+    },
+     {
+        "id": 4,
+        "name": "Affordable Remote/Voice Control Smart Wheelchair",
+        "funding": "₹150000",
+        "department": "",
+        "sponsor": "NewGen IEDC",
+        "sponsorLink": "", 
+        "year": "",
+        "description": "",
+         "status": "Ongoing",
+        "mentor": "Dr. Rajneesh Talwar",
+     "mediaUrls": ["./assets/funding3.jpeg"],
+    "mediaType": "image"
     }
 ]
