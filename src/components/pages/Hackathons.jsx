@@ -105,7 +105,7 @@ export default function Hackathons() {
                             
                             <div className="lg:w-1/2 text-left">
                                 <h2 className="text-3xl font-semibold mb-2">{hack.name}</h2>
-                                <p className="text-gray-600 mb-1 italic">Date: {hack.date}</p>
+                                <p className="text-gray-600 mb-1 italic">Date: {hack.year}</p>
                                 {hack.organizedBy && (
                                     <p className="text-gray-600 mb-1">
                                         <span className="font-medium">Organized by:</span> {hack.organizedBy}
