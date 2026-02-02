@@ -1,7 +1,7 @@
 [
     {
-        "id": 3,
-        "title": "Smart India Hackathon",
+        "sno": 3,
+        "name": "Smart India Hackathon",
         "year": "2025",
         "description": "The Department of Interdisciplinary Courses in Engineering (DICE) in Association with Institute Innovation council, organized an Internal Hackathon from 23rd to 25th September 2025 to identify and select the best teams for upcoming SMART INDIA HACKATHON. The event witnessed an overwhelming participation of around 1800 Students, showcasing their innovative ideas in both software and hardware categories. Students from diverse disciplines including CSE (Core), CSE (AI), CSE (AIML), ECE, Electrical, BBA, and BCA, Design Department actively participated, reflecting the true spirit of interdisciplinary collaboration.Projects were evaluated by a panel of expert judges, who assessed the teams on parameters such as innovation, technical feasibility, problem-solving approach, and implementation potential. The Hackathon served as a platform for students to demonstrate creativity, teamwork, and practical application of knowledge, while fostering a culture of innovation and entrepreneurship at the university.",
         "images": [
@@ -21,8 +21,8 @@
     ]
     },
     {
-        "id": 1,
-        "title": "Smart Cataloging Hackathon with Shopclues",
+        "sno": 1,
+        "name": "Smart Cataloging Hackathon with Shopclues",
         "year": "2024",
         "description": "The Smart Cataloguing Hackathon, a collaboration between Dice Explore Lab and Shopclues, illuminated the critical role of cataloguing in today’s digital world. Guided by industry mentors and Dr. Rajneesh Talwar, students dove into website development with enthusiasm and purpose.\n\nOver two days, the event buzzed with creativity and teamwork as participants refined their projects with expert feedback. The atmosphere was a mix of serious innovation and joyful camaraderie — games like 'Chinese Whisper' and a jamming session added lighthearted breaks.\n\nOn the final day, anticipation peaked during a crucial mentoring round. Selected teams presented their solutions, impressing judges with their skill and originality.\n\nIn the end, the top team was crowned, their success reflecting the event’s core spirit: collaboration, ingenuity, and resilience. The hackathon left behind a legacy of inspiration, motivating students to continue pushing boundaries in the evolving field of digital cataloguing.",
         
@@ -41,8 +41,8 @@
     ]
     },
     {
-        "id": 2,
-        "title": "Sap Hackathon",
+        "sno": 2,
+        "name": "Sap Hackathon",
         "year": "2024",
         "description": "Chitkara University, (DICE) hosted the regional round of SAP national level Hackfest'24 on April 23, 2024. The event brought together students from various colleges and streams creating a vibrant atmosphere of innovation and collaboration with a focus on problem-solving and creativity,The hackfest'24 featured 3 themes : Crowd source disaster management , Green credit management , Empowering the future: Hacking solution for renewable energy.\nThere were 97 teams i.e around 380 students who participated in the event.\nEvent was inaugurated at Exploratorium where panel was welcomed by a big round of applause \nDr. Rajneesh Talwar Dean DICE welcomed all the audience and judges. Mr. Rahul Sachdev director and head SAP university alliances program - India subcontinent SAP motivated students to participate in all such events and informed them about the selection procedure and final round to be held in july.  Dr.  Kuldeep Sharma made students familiar with the importance of hackathon and how the same will help them in placements. Six panels with each having one industry expert and one Academic expert were formed to look into the ideas being presented by the teams. Each team got 10 minutes for pitch and 5 minutes for question answers. The Chitkara University College Hackfest'24 in association with SAP served as a catalyst for creativity, collaboration, and problem-solving among students. It provided a platform for participants to apply their skills to real-world challenges, fostering innovation and entrepreneurship. The event also strengthened industry-academia partnerships and highlighted the importance of technology in addressing societal issues. The event not only encouraged innovation but also inspired participants to continue exploring new ideas and pushing the boundaries of technology.",
         "videoUrl": "",
@@ -58,8 +58,8 @@
         ]
     },
     {
-        "id": 3,
-        "title": "Hackathon on Solution For Waste Reduction In Association With Punjab Pollution Control Board",
+        "sno": 3,
+        "name": "Hackathon on Solution For Waste Reduction In Association With Punjab Pollution Control Board",
         "year": "2023",
         "description": "The Hackathon on “Solutions for Waste Reduction,” organized by DICE in association with PPCB, engaged students for two days of innovation and learning. Participants developed impactful projects addressing waste management and were evaluated on pitching, presentation, innovation, and feasibility by a distinguished panel including Mr. Rajeev Goyal, Er. Rohit Singla from PPCB, and Dr. Rajneesh Talwar, Dean, DICE. Dr. Madhu Chitkara, Pro Chancellor of Chitkara University, graced the occasion, inspiring everyone with her guidance. In the hardware category, Team Shubham and Anjani from Sant Longowal Institute of Engineering and Technology won first prize for their solution to prevent water contamination, while Team Vizion from Dronacharya College of Engineering and Team Falcons from Baba Banda Singh Bahadur Engineering College secured second and third prizes respectively. In the software category, Team Vikas Kumar Garg from Baba Farid College, Bathinda, earned first prize for their method to degrade PET plastic, followed by Team OBOT with their tree-planting initiative and Team DigiAccess with a solution for reducing food and paper waste. Dr. Madhu Chitkara presented awards to the winners, and all participants were felicitated with certificates and gifts. The hackathon inspired the next generation to create sustainable solutions and fostered a spirit of collaboration and technological innovation among everyone involved.",
         "videoUrl": "",
