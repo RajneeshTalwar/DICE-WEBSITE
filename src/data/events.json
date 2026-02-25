@@ -1,4 +1,39 @@
 [
+     {
+        "id": 17,
+        "title": "Machina Inversa ",
+        "date": "2026-02-13",
+        "content": "On 13th February 2026, the Department of Interdisciplinary Courses in Engineering (DICE), in collaboration with ProtoHub Lab (Tinkerers Lab) and CUIET-AE, organized Machina Inversa—a reverse engineering event that quietly redefined what it means to be an engineer. The session invited students to look beyond polished exteriors and into the logic, circuitry, and design thinking hidden within everyday devices such as ceiling fans, induction cooktops, microwave ovens, drill machines, and even the humble optical mouse. The session was formally initiated by Dr. Rajneesh Talwar, Dean – DICE, who addressed the participants and emphasized the importance of reverse engineering. He highlighted how reverse engineering strengthens analytical thinking, problem-solving skills, and innovation by encouraging students to understand the practical implementation of theoretical concepts. Further Dr.Talwar explained what facilities DICE has been providing along with Projects DICE has done with the students. The event carried a deeper message: engineering is not memorizing formulas, but cultivating the courage to question, analyze, and improve the world around us. He emphasized that DICE is more than a department—it is a mindset where disciplines intersect, ideas evolve, and innovation becomes a habit. Machina Inversa reflected this very philosophy. The technical session was further conducted by Dr. Anukriti Sharma, who provided detailed insights into the devices selected for the activity and explained the various components involved in reverse engineering. Through Dr. Anukriti’s insightful explanations, machines were not merely opened—they were understood. And in that understanding, students discovered something far more powerful than mechanisms and circuits: they rediscovered the essence of engineering itself—curiosity with purpose, knowledge with application, and learning that transforms the way we see the world. Students participated enthusiastically and showcased creativity, teamwork, and technical curiosity throughout the activity. The interactive and hands-on approach made the session highly engaging and enriched the students’ practical understanding of engineering systems while covering SDG 4,SDG 9 and SDG 12. The workshop successfully fostered a spirit of innovation, critical thinking, and hands-on learning among students, reinforcing the importance of practical exposure in engineering education.",
+        "images": [
+            "./assets/events/mi1.jpeg",
+            "./assets/events/mi2.jpeg",
+            "./assets/events/mi3.jpeg",
+            "./assets/events/mi4.jpeg",
+            "./assets/events/mi5.jpeg",
+            "./assets/events/mi6.jpeg",
+            "./assets/events/mi7.jpeg",
+            "./assets/events/mi8.jpeg"
+        ]
+    },
+
+     {
+        "id": 17,
+        "title": "Understanding Arduino for Innovations and IoT Applications",
+        "date": "2026-02-21",
+        "content": "The Department of Interdisciplinary Courses in Engineering (DICE), Chitkara University, organized a hands-on workshop on “Understanding Arduino for Innovations and IoT Applications” on 21st February 2026 in the DICE Lab. The workshop aimed to equip budding engineers with practical exposure to embedded systems and IoT technologies. Dr. Rajneesh Talwar, Professor and Dean, DICE, opened the session with fundamentals of computing, embedded systems, and Arduino technology, highlighting diverse boards such as Lilypad, Mega, Nano, and Uno. He emphasized experiential learning, prototyping, debugging, and optimization as essential skills for engineers. In the second half, Dr. Manvinder Sharma, Associate Professor, provided demonstrations on Arduino Uno programming, device interfacing, and simulations using Tinkercad. Students gained hands-on experience through mini-projects including a Traffic Light Control System and Gas Detection System, learning sensor interfacing, LED control, and real-time data processing. The workshop aligned with SDGs 4, 9, 11, and 12, fostering innovation, sustainability, and quality education.",
+        "images": [
+          "./assets/events/ar1.jpeg",
+          "./assets/events/ar2.jpeg",
+          "./assets/events/ar3.jpeg",
+          "./assets/events/ar4.jpeg",
+          "./assets/events/ar5.jpeg",
+          "./assets/events/ar6.jpeg",
+          "./assets/events/ar7.jpeg",
+          "./assets/events/ar8.jpeg",
+          "./assets/events/ar9.jpeg"
+        ]
+    },
+
     {
         "id": 16,
         "title": "Shiksha Mahakumbh Abhiyan 2025 ",
