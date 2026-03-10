@@ -20,7 +20,7 @@ const BlogSlider = () => {
 
   // Auto-slide every 5 seconds
   useEffect(() => {
-    const autoSlide = setInterval(handleNext, 10000);
+    const autoSlide = setInterval(handleNext, 15000);
     return () => clearInterval(autoSlide);
   }, []);
 
