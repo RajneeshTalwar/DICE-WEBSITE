@@ -5,6 +5,17 @@ import EventSlider from "../EventSlider";
 import diceVid3 from "/public/assets/DiceVid3.mp4";
 import events_upcoming from "../../data/events_upcoming.json";
 
+const projects = [
+  "Autonomous Grass Cutter",
+  "Drone-Based Campus Survey",
+  "E-Bike BLDC Motor Installation",
+  "Voice-Controlled Wheelchair",
+  "Smart Voice-Controlled Curtains",
+  "Smart Interacting Humanoid",
+  "Smart Vending Machine",
+  "DICE Mobile App",
+];
+
 export default function Event() {
   return (
     <div className="Events">
@@ -15,20 +26,49 @@ export default function Event() {
           Upcoming Events
         </h1>
 
-
+        {/* Marquee Scroller */}
         <div className="bg-black text-white py-6 overflow-hidden">
           <div className="relative w-full">
             <div className="flex animate-marquee space-x-12">
               <span className="text-lg font-semibold whitespace-nowrap">
-                Participation in IISF 2025 | Workshop on Arduino |  Workshop on python |  Workshop on Networking |
+                Python · Arduino Uno · Raspberry Pi Workshops | Join & Build: Autonomous Grass Cutter · Drone-Based Campus Survey · E-Bike BLDC Motor Installation · Voice-Controlled Wheelchair · Smart Voice-Controlled Curtains · Smart Interacting Humanoid · Smart Vending Machine · DICE Mobile App — Interested students are welcome to participate!
               </span>
               <span className="text-lg font-semibold whitespace-nowrap">
-                Participation in IISF 2025 | Workshop on Arduino |  Workshop on python |  Workshop on Networking |
+                Python · Arduino Uno · Raspberry Pi Workshops | Join & Build: Autonomous Grass Cutter · Drone-Based Campus Survey · E-Bike BLDC Motor Installation · Voice-Controlled Wheelchair · Smart Voice-Controlled Curtains · Smart Interacting Humanoid · Smart Vending Machine · DICE Mobile App — Interested students are welcome to participate!
               </span>
             </div>
           </div>
         </div>
 
+        {/* Open Projects Section */}
+        <div className="mt-10 mb-12 border border-black rounded-2xl p-8 shadow-xl">
+          <div className="mb-6">
+            <h2 className="text-3xl font-bold mb-2">Open Projects</h2>
+            <p className="text-gray-500 text-md">
+              Interested in building something real? Join one of our ongoing projects and gain hands-on experience.
+            </p>
+          </div>
+
+          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
+            {projects.map((project, i) => (
+              <li key={i} className="flex items-center gap-3 text-gray-700 text-md">
+                <span className="w-2 h-2 rounded-full bg-black inline-block flex-shrink-0"></span>
+                {project}
+              </li>
+            ))}
+          </ul>
+
+          <a
+            href="https://forms.gle/7LFZi1KhxaTjqkPX8"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-black text-white py-3 px-10 rounded-lg text-lg font-semibold hover:bg-gray-800 transition-colors duration-300"
+          >
+            Apply Now →
+          </a>
+        </div>
+
+        {/* Upcoming Events Grid */}
         {events_upcoming.length === 0 ? (
           <p className="text-2xl pt-10 text-center">
             For Parctipation in the following events you may contact Ms. Navneet ( Ph no: 8146939181 )
@@ -67,6 +107,7 @@ export default function Event() {
           </div>
         )}
       </div>
+
       <div className="container mx-auto pt-12">
         <h1 className="text-4xl font-semibold mb-12 sm:text-5xl text-center">
           Events
@@ -104,9 +145,7 @@ export default function Event() {
         </div>
       </div>
 
-      {/* Removed Ongoing Events */}
-
-
+      
 
       <FAQSection />
       <Footer />
