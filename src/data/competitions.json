@@ -1,4 +1,15 @@
-[
+[{"sno": 19,
+        "name": "Chitkara University (DICE Team) participates at  IIT Mandi in Xpecto 2026: 14-16March 2026",
+        "date": "2026-03-13 to 2026-03-15",
+        "organizedBy": "IIT Roorkee",
+        "venue": "IIT Roorkee",
+        "participation": " DICE Team participated in ‘Bit by Bit’ hackathon, at IIT Roorke,which was supposed to be full stack hackathon, but In every stage of hackathon, students had to build AI agents! Then through some vibe coding and several YouTube tutorials students were finally reached near building one through OpenClaw but then came an issue “Your API limits have reached. Please buy credits.” This error kept popping up even when students created a new key every time. After a couple hrs of debugging, students still had no luck. With just 4 hrs left before the final deadline, students switched to n8n and proceeded further. Eventually it turned out to be the easiest way to build AI agents. In the last 30 mins students had part 1 of project ready- it was supposed to comprehend the input by user and give a humanistic conversational toned output. Students were supposed to build an AI agent that could clean and segregate medical data, and were given 2 CSV files as dataset. Students submitted text comprehending part of project. Students also attended a guest lecture delivered by CEO of HiLabs, peeked into what was going on in other events, listened to the pitches of students at Techzibition, a professor was narrating his experience and some stories of ISRO, Everything, be it food or other daily necessity items, were very affordable and easily accessible. Students spent 3 days at IIT Roorkee and as per them, those were the most worth-it 72 hrs. Students are thankful for such an opportunity. Since it is one of the oldest engineering institutions, it carried a strong sense of tradition and the legacy of Indian culture, while also embodying a perfect blend of cultural heritage and modern innovation. Such participation helps students to learn , grow and innovate.",
+        "images": [
+            "./assets/1-IITMANDI.jpeg",
+            "./assets/2-IITMANDI.jpeg",
+            "./assets/3-IITMANDI.jpeg"
+       
+        ]},
         {
         "sno": 18,
         "name": "Chitkara DICE Team participates at IIT Roorkee annual Techfest, Cognizance",
