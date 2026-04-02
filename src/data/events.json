@@ -4,18 +4,18 @@
         "date": "2026-03-28",
         "content":"The Department of Interdisciplinary Courses in Engineering (DICE), Chitkara University, organized a webinar on “Cloud Computing and Its Applications” on 28 March 2026. The session was delivered by Shashank Tripathi, Technical Trainer at PyNet Labs, Gurugram, Haryana. The webinar witnessed enthusiastic participation from students and faculty members across various disciplines. During the session, the expert provided a comprehensive overview of cloud computing, highlighting its importance in modern computing environments. He explained why cloud computing is widely adopted, emphasizing benefits such as cost efficiency, scalability, flexibility, reliability, and on-demand self-service. The session covered cloud computing services delivered over the internet, supported by real-world examples to help participants understand its relevance in daily life. The expert elaborated on various cloud service models, including Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS), along with development models. Further, different cloud deployment models were discussed, including public cloud, private cloud, hybrid cloud, and community cloud, explaining their features and use cases. The speaker also provided insights into career opportunities in cloud computing, discussing various job roles such as Cloud Engineer, Cloud Developer, SysOps Administrator, Cloud Architect, DevOps Engineer, Cloud Security Engineer, and Data Engineer, along with their average salary ranges in India. Additionally, the session included guidance on industry-recognized certifications such as AWS Certification. The expert also shared useful learning resources and platforms related to Amazon Web Services and Microsoft Azure, enabling participants to explore hands-on practice and further skill development in cloud technologies. He also demonstrated how to host a web service using a Linux operating system and deploy a website on the cloud, providing practical exposure to real-world implementation. An interactive question-and-answer session was conducted, where participants actively engaged with the speaker, raising queries related to cloud concepts, tools, and career opportunities. The event was aligned with SDG 4 (Quality Education), SDG 5 (Gender Equality), SDG 9 (Industry, Innovation and Infrastructure), and SDG 17 (Partnerships for the Goals), promoting knowledge sharing, inclusivity, innovation, and collaborative learning among participants. ",
         "images": [
-            "./assets/CLOUD1.jpeg",
-            "./assets/CLOUD2.jpeg",
-            "./assets/CLOUD3.jpeg"
+            "./assets/events/CLOUD1.jpeg",
+            "./assets/events/CLOUD2.jpeg",
+            "./assets/events/CLOUD3.jpeg"
         ]
     },{
         "id": 19,
         "title": "AI Driven Research Tools and Safety for Manuscript Writing ",
         "date": "2026-03-21",
         "content":" The Department of Interdisciplinary Courses in Engineering (DICE), Chitkara University, organized a webinar on “AI Driven Research Tools and Safety for Manuscript Writing” on 21 March 2026. The session was delivered by Dr. Brijesh Mishra, Associate Professor, CMR University, Bengaluru. The webinar witnessed active participation from more than 125 participants from across India, including students, researchers, and faculty members. During the session, the expert provided valuable insights into a wide range of research and writing tools, including Mendeley, OriginLab, LaTeX, Graph Data Extraction tools, Reuse Permission protocols, MATLAB, ChatGPT, Stealth Writer, Virtual Labs, Grammarly, and QuillBot. The session also included practical demonstrations, enabling participants to gain hands-on understanding of these tools. An interactive question-and-answer segment was conducted, during which participants actively engaged with the expert to clarify their queries related to manuscript writing and research practices. The event was aligned with SDG 4 (Quality Education), SDG 9 (Industry, Innovation and Infrastructure), and SDG 17 (Partnerships for the Goals), fostering innovation, collaboration, and experiential learning among students and faculty members. ",
-        "images": ["./assets/events/MW21MARCH2.jpeg",
-            "./assets/events/MW21MARCH1.jpeg",
-        "./assets/events/MW21MARCH3.jpeg"]
+        "images": ["./assets/MW21MARCH2.jpeg",
+            "./assets/MW21MARCH1.jpeg",
+        "./assets/MW21MARCH3.jpeg"]
     },
      {
         "id": 18,
