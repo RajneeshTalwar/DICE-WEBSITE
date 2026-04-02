@@ -37,7 +37,7 @@
     },
     {
         "id": 6,
-        "title": "Solar Wheel Chair / Tricycle",
+        "title": "Solar Tricycle",
         "description": "A solar-powered wheelchair/tricycle hybrid that provides sustainable mobility for differently-abled individuals in off-grid areas.",
         "specs": [],
         "sdgs": [
@@ -217,7 +217,8 @@
         "images": [
             "./assets/projects/electric-wheel-chair.jpg",
             "./assets/projects/electric-wheel-chair-riding-0.mp4",
-            "./assets/projects/electric-wheel-chair-riding-1.mp4"
+            "./assets/projects/electric-wheel-chair-riding-1.mp4",
+            "./assets/events/voicewheelchair2.mp4"
         ]
     }
 ]
