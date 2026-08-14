@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { useEffect, useState } from "react";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
@@ -13,7 +14,9 @@ import Projects from "./components/pages/Projects";
 import Competitions from "./components/pages/Competition";
 
 export default function App() {
+
   return (
+    
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
@@ -29,5 +32,7 @@ export default function App() {
       <Route path="/projects" element={<Projects />} />
       <Route path="/register/:eventId" element={<Register />} />
     </Routes>
+     
+      
   );
 }
